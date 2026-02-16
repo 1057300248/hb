@@ -54,6 +54,7 @@ namespace HREngine.Bots
         public bool learnmode = false;
         public bool printlearnmode = true;
         Silverfish sf = Silverfish.Instance;
+        private UserControl _control;
         DefaultBotSettings botset
         {
             get { return DefaultBotSettings.Instance; }
@@ -237,7 +238,10 @@ def Execute():
         {
             get
             {
-
+                if (_control != null)
+                {
+                    return _control;
+                }
 
                 using (var fs = new FileStream(@"Routines\DefaultRoutine\SettingsGui.xaml", FileMode.Open))
                 {
@@ -490,7 +494,8 @@ def Execute():
                     var clearLogButton = Wpf.FindControlByName<Button>(root, "clearLogButton");
                     clearLogButton.Click += clearLog;
 
-                    return root;
+                    _control = root;
+                    return _control;
                 }
             }
         }
