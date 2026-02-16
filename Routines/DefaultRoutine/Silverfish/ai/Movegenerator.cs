@@ -2,7 +2,6 @@ namespace HREngine.Bots
 {
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
 
     public class Movegenerator
     {
@@ -39,8 +38,7 @@ namespace HREngine.Bots
 
             if (own)
             {
-                HashSet<string> playedcards = new HashSet<string>();
-                var cardNcost = new StringBuilder();
+                HashSet<ulong> playedcards = new HashSet<ulong>();
 
                 foreach (Handmanager.Handcard hc in p.owncards)
                 {
@@ -58,10 +56,9 @@ namespace HREngine.Bots
                     else if (p.mana < cardCost) continue;
 
                     // 检查是否在此回合内打出了相同的卡牌
-                    cardNcost.Clear();
-                    cardNcost.Append(hc.card.cardIDenum).Append(hc.manacost);
-                    if (playedcards.Contains(cardNcost.ToString()) && !hc.card.Outcast && hc.enchs.Count == 0) continue;
-                    playedcards.Add(cardNcost.ToString());
+                    ulong cardNcostKey = ((ulong)(uint)hc.card.cardIDenum << 32) | (uint)hc.manacost;
+                    if (playedcards.Contains(cardNcostKey) && !hc.card.Outcast && hc.enchs.Count == 0) continue;
+                    playedcards.Add(cardNcostKey);
 
                     bool isChoice = hc.card.choice;
                     CardDB.Card c = hc.card;

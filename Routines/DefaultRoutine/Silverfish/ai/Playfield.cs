@@ -2015,60 +2015,116 @@ namespace HREngine.Bots
         /// 获取hash值
         /// </summary>
         /// <returns></returns>
+        private static ulong MixHash(ulong hash, int value)
+        {
+            unchecked
+            {
+                hash ^= (uint)value;
+                hash *= 1099511628211UL;
+                return hash;
+            }
+        }
+
+        private static ulong MixHashBool(ulong hash, bool value)
+        {
+            unchecked
+            {
+                hash ^= value ? 1UL : 0UL;
+                hash *= 1099511628211UL;
+                return hash;
+            }
+        }
+
         public Int64 GetPHash()
         {
-            Int64 retval = 0;
-            if (this.playactions.Count > 0)
+            // 64-bit FNV-1a 变体，尽量降低不同局面哈希冲突概率。
+            unchecked
             {
+                ulong hash = 14695981039346656037UL;
+
+                hash = MixHash(hash, this.mana);
+                hash = MixHash(hash, this.manaTurnEnd);
+                hash = MixHash(hash, this.cardsPlayedThisTurn);
+                hash = MixHash(hash, this.mobsplayedThisTurn);
+                hash = MixHash(hash, this.owncards.Count);
+                hash = MixHash(hash, this.enemycarddraw);
+                hash = MixHash(hash, this.spellpower);
+                hash = MixHash(hash, this.enemyspellpower);
+                hash = MixHash(hash, this.anzOwnElementalsLastTurn);
+                hash = MixHash(hash, this.anzOwnJadeGolem);
+                hash = MixHash(hash, this.anzOgOwnCThunAngrBonus);
+
+                hash = MixHash(hash, this.ownHero.Hp);
+                hash = MixHash(hash, this.ownHero.armor);
+                hash = MixHash(hash, this.ownHero.Angr);
+                hash = MixHashBool(hash, this.ownHero.frozen);
+                hash = MixHashBool(hash, this.ownHero.immune);
+
+                hash = MixHash(hash, this.enemyHero.Hp);
+                hash = MixHash(hash, this.enemyHero.armor);
+                hash = MixHash(hash, this.enemyHero.Angr);
+                hash = MixHashBool(hash, this.enemyHero.frozen);
+                hash = MixHashBool(hash, this.enemyHero.immune);
+
+                hash = MixHash(hash, this.ownWeapon.Angr);
+                hash = MixHash(hash, this.ownWeapon.Durability);
+                hash = MixHash(hash, this.enemyWeapon.Angr);
+                hash = MixHash(hash, this.enemyWeapon.Durability);
+
+                hash = MixHash(hash, this.ownQuest.questProgress);
+                hash = MixHash(hash, this.enemyQuest.questProgress);
+
+                hash = MixHash(hash, this.ownMinions.Count);
+                foreach (Minion m in this.ownMinions)
+                {
+                    hash = MixHash(hash, m.entitiyID);
+                    hash = MixHash(hash, (int)m.handcard.card.cardIDenum);
+                    hash = MixHash(hash, m.Angr);
+                    hash = MixHash(hash, m.Hp);
+                    hash = MixHash(hash, m.maxHp);
+                    hash = MixHashBool(hash, m.taunt);
+                    hash = MixHashBool(hash, m.divineshild);
+                    hash = MixHashBool(hash, m.wounded);
+                    hash = MixHashBool(hash, m.stealth);
+                    hash = MixHashBool(hash, m.immune);
+                    hash = MixHashBool(hash, m.frozen);
+                    hash = MixHashBool(hash, m.poisonous);
+                    hash = MixHashBool(hash, m.lifesteal);
+                    hash = MixHashBool(hash, m.reborn);
+                }
+
+                hash = MixHash(hash, this.enemyMinions.Count);
+                foreach (Minion m in this.enemyMinions)
+                {
+                    hash = MixHash(hash, m.entitiyID);
+                    hash = MixHash(hash, (int)m.handcard.card.cardIDenum);
+                    hash = MixHash(hash, m.Angr);
+                    hash = MixHash(hash, m.Hp);
+                    hash = MixHash(hash, m.maxHp);
+                    hash = MixHashBool(hash, m.taunt);
+                    hash = MixHashBool(hash, m.divineshild);
+                    hash = MixHashBool(hash, m.wounded);
+                    hash = MixHashBool(hash, m.stealth);
+                    hash = MixHashBool(hash, m.immune);
+                    hash = MixHashBool(hash, m.frozen);
+                    hash = MixHashBool(hash, m.poisonous);
+                    hash = MixHashBool(hash, m.lifesteal);
+                    hash = MixHashBool(hash, m.reborn);
+                }
+
+                hash = MixHash(hash, this.playactions.Count);
                 foreach (Action a in this.playactions)
                 {
-                    switch (a.actionType)
-                    {
-                        case actionEnum.playcard:
-                            retval += a.card.entity;
-                            if (a.target != null)
-                            {
-                                retval += a.target.entitiyID;
-                            }
-                            retval += a.druidchoice;
-                            continue;
-                        case actionEnum.attackWithMinion:
-                            retval += a.own.entitiyID + a.target.entitiyID;
-                            continue;
-                        case actionEnum.attackWithHero:
-                            retval += a.target.entitiyID;
-                            continue;
-                        case actionEnum.useHeroPower:
-                            retval += 100;
-                            if (a.target != null)
-                            {
-                                retval += a.target.entitiyID;
-                            }
-                            retval += a.druidchoice;
-                            continue;
-                        case actionEnum.trade:
-                        case actionEnum.forge:
-                        case actionEnum.useTitanAbility:
-                        case actionEnum.useLocation:
-                        case actionEnum.useUnderfelRift:
-                        case actionEnum.rewind:
-                            continue;
-                    }
+                    hash = MixHash(hash, (int)a.actionType);
+                    hash = MixHash(hash, a.card != null ? a.card.entity : 0);
+                    hash = MixHash(hash, a.own != null ? a.own.entitiyID : 0);
+                    hash = MixHash(hash, a.target != null ? a.target.entitiyID : 0);
+                    hash = MixHash(hash, a.druidchoice);
+                    hash = MixHash(hash, a.titanAbilityNO);
                 }
-                if (this.playactions[this.playactions.Count - 1].card != null && this.playactions[this.playactions.Count - 1].card.card.type == CardDB.cardtype.MOB) retval++;
-                retval += this.manaTurnEnd;
-            }
 
-            retval += this.anzOgOwnCThunAngrBonus + this.anzOwnJadeGolem + this.anzOwnElementalsLastTurn;
-            retval *= 1000;
-
-            foreach (Minion m in this.ownMinions)
-            {
-                retval += m.entitiyID + m.Angr + m.Hp + (m.taunt ? 1 : 0) + (m.divineshild ? 1 : 0) + (m.wounded ? 0 : 1);
+                return (long)hash;
             }
-            retval *= 10000000;
-            retval += 10000 * this.ownMinions.Count + 100 * this.enemyMinions.Count + 1000 * this.mana + 100000 * (this.ownHero.Hp + this.enemyHero.Hp) + this.owncards.Count + this.enemycarddraw + this.cardsPlayedThisTurn + this.mobsplayedThisTurn + this.ownHero.Angr + this.ownHero.armor + this.ownWeapon.Angr + this.enemyWeapon.Durability + this.spellpower + this.enemyspellpower + this.ownQuest.questProgress;
-            return retval;
         }
 
         /// <summary>

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
-using System.Linq;
+using System.Threading;
 using System.Windows;
 #if APPLICATION_MODE
     using RoutineHelper;
@@ -46,9 +46,8 @@ namespace HREngine.Bots
         private bool playaround = false;
         private int playaroundprob = 50;
         private int playaroundprob2 = 80;
-
-        private static readonly object threadnumberLocker = new object();
-        private int threadnumberGlobal = 0;
+        private int threadnumberGlobal = -1;
+        private readonly ThreadLocal<int> threadnumber;
 
         Movegenerator movegen = Movegenerator.Instance;
 
@@ -56,12 +55,24 @@ namespace HREngine.Bots
 
         public MiniSimulator()
         {
+            threadnumber = new ThreadLocal<int>(() =>
+            {
+                int maxThreadSlots = Math.Max(1, Ai.Instance.maxNumberOfThreads - 1);
+                int next = Interlocked.Increment(ref threadnumberGlobal);
+                return next % maxThreadSlots;
+            });
         }
         public MiniSimulator(int deep, int wide, int ttlboards)
         {
             this.maxdeep = deep;
             this.maxwide = wide;
             this.totalboards = ttlboards;
+            threadnumber = new ThreadLocal<int>(() =>
+            {
+                int maxThreadSlots = Math.Max(1, Ai.Instance.maxNumberOfThreads - 1);
+                int next = Interlocked.Increment(ref threadnumberGlobal);
+                return next % maxThreadSlots;
+            });
         }
 
         public void updateParams(int deep, int wide, int ttlboards)
@@ -122,13 +133,11 @@ namespace HREngine.Bots
             while (havedonesomething)
             {
                 // 每次循环是同一回合的一步，每多一步，deep加1
-                GC.Collect();
                 temp.Clear();
                 temp.AddRange(this.posmoves);
 
                 this.posmoves.Clear();
                 havedonesomething = false;
-                threadnumberGlobal = 0;
 
                 if (print) startEnemyTurnSimThread(temp, 0, temp.Count);
                 else
@@ -270,18 +279,8 @@ namespace HREngine.Bots
 
         private void startEnemyTurnSimThread(List<Playfield> source, int startIndex, int endIndex)
         {
-            int threadnumber = 0;
-            lock (threadnumberLocker)
-            {
-                threadnumber = threadnumberGlobal++;
-                System.Threading.Monitor.Pulse(threadnumberLocker);
-            }
-            if (threadnumber > Ai.Instance.maxNumberOfThreads - 2)
-            {
-                threadnumber = Ai.Instance.maxNumberOfThreads - 2;
-                Helpfunctions.Instance.ErrorLog("You need more threads!");
-                return;
-            }
+            int threadIndex = threadnumber.Value;
+            EnemyTurnSimulator enemyTurnSimulator = Ai.Instance.enemyTurnSim[threadIndex];
 
             int berserk = Settings.Instance.berserkIfCanFinishNextTour;
             int printRules = Settings.Instance.printRules;
@@ -304,21 +303,22 @@ namespace HREngine.Bots
                     //读取到actions后接下来对每个步骤进行模拟
                     //从而得到操作之后的场面并且计算val值
                     if (printRules > 0) p.endTurnState = new Playfield(p);
-                    // 全局集合，记录已经模拟过的泰坦技能动作
-                    var usedTitanSkills = "";
+                    int usedTitanEntityId = -1;
+                    int usedTitanAbilityNo = -1;
+                    HashSet<int> usedLocationEntityIds = null;
                     foreach (Action a in actions)  // 到这步 a.penalty已经计算好了
                     {
                         // 检查是否为泰坦技能动作，并检查是否已经模拟过
                         if (a.actionType == actionEnum.useTitanAbility)
                         {
-                            string titanSkillKey = a.own.entitiyID + "-" + a.titanAbilityNO;
-                            if (usedTitanSkills.Length == 0)
+                            if (usedTitanEntityId == -1)
                             {
-                                usedTitanSkills = titanSkillKey;
+                                usedTitanEntityId = a.own.entitiyID;
+                                usedTitanAbilityNo = a.titanAbilityNO;
                             }
                             else
                             {
-                                if (usedTitanSkills != titanSkillKey)
+                                if (usedTitanEntityId != a.own.entitiyID || usedTitanAbilityNo != a.titanAbilityNO)
                                 {
                                     continue; // 已使用其他技能
                                 }
@@ -328,8 +328,19 @@ namespace HREngine.Bots
                         {
                             if (a.own != null)
                             {
-                                bool hasSameEntitiyID = p.playactions.Any(temp => temp.own != null && temp.own.entitiyID == a.own.entitiyID);
-                                if (hasSameEntitiyID)
+                                if (usedLocationEntityIds == null)
+                                {
+                                    usedLocationEntityIds = new HashSet<int>();
+                                    foreach (Action action in p.playactions)
+                                    {
+                                        if (action.own != null)
+                                        {
+                                            usedLocationEntityIds.Add(action.own.entitiyID);
+                                        }
+                                    }
+                                }
+
+                                if (usedLocationEntityIds.Contains(a.own.entitiyID))
                                 {
                                     continue; //当前地标已经模拟使用
                                 }
@@ -356,7 +367,7 @@ namespace HREngine.Bots
                                 if (p.anzOwnTaunt < 1) foreach (Minion m in p.ownMinions) { if (m.Ready) { needETS = false; break; } }
                             }
                             //从这里进入模拟敌方下一回合的操作
-                            if (needETS) Ai.Instance.enemyTurnSim[threadnumber].simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
+                            if (needETS) enemyTurnSimulator.simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
                         }
                     }
 
@@ -368,7 +379,7 @@ namespace HREngine.Bots
                     p.endTurn();
                     if (p.enemyHero.Hp > 0)
                     {
-                        Ai.Instance.enemyTurnSim[threadnumber].simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
+                        enemyTurnSimulator.simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
                         if (p.value <= -10000)
                         {
                             bool secondChance = false;
@@ -407,10 +418,9 @@ namespace HREngine.Bots
 
         public void doDirtyTwoTurnsimThread(List<Playfield> source, int startIndex, int endIndex)
         {
-            int threadnumber = Ai.Instance.maxNumberOfThreads - 2;
-            if (endIndex < source.Count) threadnumber = startIndex / (endIndex - startIndex);
+            EnemyTurnSimulator enemyTurnSimulator = Ai.Instance.enemyTurnSim[threadnumber.Value];
             //set maxwide of enemyturnsimulator's to second step (this value is higher than the maxwide in first step) 
-            Ai.Instance.enemyTurnSim[threadnumber].setMaxwide(false);
+            enemyTurnSimulator.setMaxwide(false);
 
             for (int i = startIndex; i < endIndex; i++)
             {
@@ -421,7 +431,7 @@ namespace HREngine.Bots
                     p.complete = false;
                     p.value = int.MinValue;
                     p.bestEnemyPlay = null;
-                    Ai.Instance.enemyTurnSim[threadnumber].simulateEnemysTurn(p, true, playaround, false, this.playaroundprob, this.playaroundprob2);
+                    enemyTurnSimulator.simulateEnemysTurn(p, true, playaround, false, this.playaroundprob, this.playaroundprob2);
                 }
                 else
                 {
