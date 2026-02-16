@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
 using System.Linq;
+using System.Threading;
 using System.Windows;
 #if APPLICATION_MODE
     using RoutineHelper;
@@ -46,9 +47,8 @@ namespace HREngine.Bots
         private bool playaround = false;
         private int playaroundprob = 50;
         private int playaroundprob2 = 80;
-
-        private static readonly object threadnumberLocker = new object();
-        private int threadnumberGlobal = 0;
+        private int threadnumberGlobal = -1;
+        private readonly ThreadLocal<int> threadnumber;
 
         Movegenerator movegen = Movegenerator.Instance;
 
@@ -56,12 +56,24 @@ namespace HREngine.Bots
 
         public MiniSimulator()
         {
+            threadnumber = new ThreadLocal<int>(() =>
+            {
+                int maxThreadSlots = Math.Max(1, Ai.Instance.maxNumberOfThreads - 1);
+                int next = Interlocked.Increment(ref threadnumberGlobal);
+                return next % maxThreadSlots;
+            });
         }
         public MiniSimulator(int deep, int wide, int ttlboards)
         {
             this.maxdeep = deep;
             this.maxwide = wide;
             this.totalboards = ttlboards;
+            threadnumber = new ThreadLocal<int>(() =>
+            {
+                int maxThreadSlots = Math.Max(1, Ai.Instance.maxNumberOfThreads - 1);
+                int next = Interlocked.Increment(ref threadnumberGlobal);
+                return next % maxThreadSlots;
+            });
         }
 
         public void updateParams(int deep, int wide, int ttlboards)
@@ -122,13 +134,11 @@ namespace HREngine.Bots
             while (havedonesomething)
             {
                 // 每次循环是同一回合的一步，每多一步，deep加1
-                GC.Collect();
                 temp.Clear();
                 temp.AddRange(this.posmoves);
 
                 this.posmoves.Clear();
                 havedonesomething = false;
-                threadnumberGlobal = 0;
 
                 if (print) startEnemyTurnSimThread(temp, 0, temp.Count);
                 else
@@ -270,18 +280,8 @@ namespace HREngine.Bots
 
         private void startEnemyTurnSimThread(List<Playfield> source, int startIndex, int endIndex)
         {
-            int threadnumber = 0;
-            lock (threadnumberLocker)
-            {
-                threadnumber = threadnumberGlobal++;
-                System.Threading.Monitor.Pulse(threadnumberLocker);
-            }
-            if (threadnumber > Ai.Instance.maxNumberOfThreads - 2)
-            {
-                threadnumber = Ai.Instance.maxNumberOfThreads - 2;
-                Helpfunctions.Instance.ErrorLog("You need more threads!");
-                return;
-            }
+            int threadIndex = threadnumber.Value;
+            EnemyTurnSimulator enemyTurnSimulator = Ai.Instance.enemyTurnSim[threadIndex];
 
             int berserk = Settings.Instance.berserkIfCanFinishNextTour;
             int printRules = Settings.Instance.printRules;
@@ -356,7 +356,7 @@ namespace HREngine.Bots
                                 if (p.anzOwnTaunt < 1) foreach (Minion m in p.ownMinions) { if (m.Ready) { needETS = false; break; } }
                             }
                             //从这里进入模拟敌方下一回合的操作
-                            if (needETS) Ai.Instance.enemyTurnSim[threadnumber].simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
+                            if (needETS) enemyTurnSimulator.simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
                         }
                     }
 
@@ -368,7 +368,7 @@ namespace HREngine.Bots
                     p.endTurn();
                     if (p.enemyHero.Hp > 0)
                     {
-                        Ai.Instance.enemyTurnSim[threadnumber].simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
+                        enemyTurnSimulator.simulateEnemysTurn(p, this.simulateSecondTurn, playaround, false, playaroundprob, playaroundprob2);
                         if (p.value <= -10000)
                         {
                             bool secondChance = false;
@@ -407,10 +407,9 @@ namespace HREngine.Bots
 
         public void doDirtyTwoTurnsimThread(List<Playfield> source, int startIndex, int endIndex)
         {
-            int threadnumber = Ai.Instance.maxNumberOfThreads - 2;
-            if (endIndex < source.Count) threadnumber = startIndex / (endIndex - startIndex);
+            EnemyTurnSimulator enemyTurnSimulator = Ai.Instance.enemyTurnSim[threadnumber.Value];
             //set maxwide of enemyturnsimulator's to second step (this value is higher than the maxwide in first step) 
-            Ai.Instance.enemyTurnSim[threadnumber].setMaxwide(false);
+            enemyTurnSimulator.setMaxwide(false);
 
             for (int i = startIndex; i < endIndex; i++)
             {
@@ -421,7 +420,7 @@ namespace HREngine.Bots
                     p.complete = false;
                     p.value = int.MinValue;
                     p.bestEnemyPlay = null;
-                    Ai.Instance.enemyTurnSim[threadnumber].simulateEnemysTurn(p, true, playaround, false, this.playaroundprob, this.playaroundprob2);
+                    enemyTurnSimulator.simulateEnemysTurn(p, true, playaround, false, this.playaroundprob, this.playaroundprob2);
                 }
                 else
                 {
