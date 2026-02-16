@@ -1,0 +1,444 @@
+2026-02-09 13:09:10,800 [1] INFO  Logger (null) - Hearthbuddy Version: 0.0.0.0
+Path: C:\Users\<Username>\Desktop\HB1.1.8\<ExeName>
+
+OS Name: Microsoft Windows 10 专业版
+OS Version: 10.0.19045
+OS Architecture: 64 位
+InstalledUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentCulture: zh-CN [Chinese (Simplified, China)]
+
+2026-02-09 13:09:10,818 [1] INFO  Logger (null) - Now setting up JitProfiles...
+2026-02-09 13:09:10,818 [1] INFO  Logger (null) - JitProfiles successfully setup!
+2026-02-09 13:09:10,818 [1] INFO  Logger (null) - Now beginning pre-start tasks.
+2026-02-09 13:09:10,818 [1] INFO  Logger (null) - Now checking prerequisites...
+2026-02-09 13:09:10,822 [1] ERROR Logger (null) - [中控设置] 默认设置操作系统 = Windows10.
+2026-02-09 13:09:11,079 [1] INFO  Logger (null) - Prerequisite check complete!
+2026-02-09 13:09:11,104 [1] INFO  Logger (null) - svchostPath: C:\Windows\System32\svchost.exe
+2026-02-09 13:09:11,130 [1] INFO  Logger (null) - Pre-start tasks successfully completed.
+2026-02-09 13:09:11,135 [1] INFO  Logger (null) - [AuthRegion] China.
+2026-02-09 13:09:11,373 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 5
+2026-02-09 13:09:11,374 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 20
+2026-02-09 13:09:11,397 [1] INFO  Logger (null) - Hearthbuddy [0.0.0.0] is up to date!
+2026-02-09 13:09:11,701 [1] INFO  Logger (null) - 检测到炉石进程！
+2026-02-09 13:09:12,594 [11] INFO  Logger (null) - 绑定到炉石进程！
+2026-02-09 13:09:12,638 [11] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:09:12,639 [11] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 13:09:12,640 [11] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:09:12,640 [11] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 13:09:12,641 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 13:09:12,641 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:09:12,642 [11] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:09:12,642 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 13:09:12,643 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:09:12,644 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:09:12,644 [11] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:09:12,644 [11] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:09:12,645 [11] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 13:09:12,645 [11] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:09:12,646 [11] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:09:12,646 [11] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:09:12,670 [11] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:09:12,671 [11] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 鸡蛋龙德.
+2026-02-09 13:09:12,672 [11] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:09:12,672 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 13:09:12,672 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 13:09:12,673 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 13:09:12,673 [11] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = False.
+2026-02-09 13:09:12,673 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 13:09:12,674 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:09:12,674 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:09:12,675 [11] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:09:12,675 [11] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:09:12,675 [11] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:09:12,676 [11] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:09:12,677 [11] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.1.
+2026-02-09 13:09:12,692 [11] DEBUG Logger (null) - Reloading AssemblyLoader<Triton.Bot.IRoutine> - Initializing
+2026-02-09 13:09:12,692 [1] DEBUG Logger (null) - Current bot set to 天梯脚本.
+2026-02-09 13:09:41,120 [11] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-09 13:09:41,122 [11] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:09:41,122 [11] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:09:41,123 [11] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:09:41,123 [11] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:09:41,124 [11] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-09 13:09:41,124 [11] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:09:41,125 [11] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:09:41,125 [11] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:09:41,126 [11] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:09:41,126 [11] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:09:41,131 [11] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨狂野丨十职业通用挂机.
+2026-02-09 13:09:41,131 [11] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:09:41,131 [11] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:09:41,132 [11] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:09:41,132 [11] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:09:41,133 [11] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-09 13:09:41,133 [11] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:09:41,133 [11] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:09:41,134 [11] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:09:41,134 [11] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:09:41,134 [11] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:09:41,613 [1] DEBUG Logger (null) - Current routine set to 天梯策略.
+2026-02-09 13:09:41,622 [11] DEBUG Logger (null) - [自动停止插件] 初始化
+2026-02-09 13:09:41,631 [11] DEBUG Logger (null) - [监控插件] 初始化
+2026-02-09 13:09:41,649 [11] DEBUG Logger (null) - [统计插件] 初始化
+2026-02-09 13:09:41,663 [11] DEBUG Logger (null) - [任务插件] 初始化
+2026-02-09 13:09:41,671 [11] DEBUG Logger (null) - [自动停止插件] 启用
+2026-02-09 13:09:41,705 [11] DEBUG Logger (null) - [监控插件] 启用
+2026-02-09 13:09:41,739 [11] DEBUG Logger (null) - [统计插件] 启用
+2026-02-09 13:09:41,773 [11] DEBUG Logger (null) - [任务插件] 启用
+2026-02-09 13:09:41,893 [11] ERROR Logger (null) - 炉石学习V1.1.8内核开源版本--[2026-2-2]--禁止以收费形式单独分发本软件或二次打包开源内容进行售卖
+2026-02-09 13:09:59,330 [1] INFO  Logger (null) - [Start] Now creating the BotThread.
+2026-02-09 13:10:03,099 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:10:03,100 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 13:10:03,100 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:10:03,100 [BotThread] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 13:10:03,101 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:10:03,101 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 13:10:03,101 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:10:03,101 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:10:03,103 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 13:10:03,104 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:10:03,104 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:10:03,104 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:10:03,104 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:10:03,105 [BotThread] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 13:10:03,105 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:10:03,105 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:10:03,105 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:10:03,106 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:10:03,106 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 新30暗.
+2026-02-09 13:10:03,106 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:10:03,107 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 13:10:03,107 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 13:10:03,108 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1000.
+2026-02-09 13:10:03,108 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:10:03,109 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 13:10:03,110 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:10:03,111 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:10:03,111 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:10:03,111 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:10:03,111 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:10:03,112 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:10:03,112 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:10:03,121 [BotThread] DEBUG Logger (null) - [自动停止插件] 开启
+2026-02-09 13:10:03,122 [BotThread] DEBUG Logger (null) - [监控插件] 开启
+2026-02-09 13:10:03,164 [BotThread] DEBUG Logger (null) - [统计插件] 开启
+2026-02-09 13:10:03,165 [1] INFO  Logger (null) - [监控插件] 合计: 战令233级(789/1500)(473/小时) 狂野钻石5 3星 391/966(胜40.48%) [598投] 
+2026-02-09 13:10:03,165 [BotThread] DEBUG Logger (null) - [任务插件] 开启
+2026-02-09 13:10:03,167 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-09 13:10:03,168 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:10:03,168 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:10:03,168 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:10:03,168 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:10:03,169 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-09 13:10:03,169 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:10:03,169 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:10:03,169 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:10:03,170 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:10:03,170 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:10:03,172 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨自定义丨空策略.
+2026-02-09 13:10:03,172 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:10:03,173 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:10:03,173 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:10:03,173 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:10:03,173 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-09 13:10:03,174 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:10:03,174 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:10:03,174 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:10:03,174 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:10:03,175 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:10:03,313 [BotThread] INFO  Logger (null) - [游戏开局前]
+2026-02-09 13:10:03,319 [BotThread] INFO  Logger (null) - [自动停止] 游戏开始时间记录: 21:10:03
+2026-02-09 13:10:03,481 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-09 13:10:04,531 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-09 13:10:05,565 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-09 13:10:07,985 [BotThread] DEBUG Logger (null) - 使用: 乌鸦神像 暂时没有目标
+2026-02-09 13:10:10,294 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:11,401 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:12,522 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:13,681 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:14,830 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:15,622 [1] INFO  Logger (null) - [Stop] Now requesting the BotThread to stop.
+2026-02-09 13:10:15,646 [BotThread] DEBUG Logger (null) - [自动停止插件] 停止
+2026-02-09 13:10:15,646 [BotThread] DEBUG Logger (null) - [监控插件] 停止
+2026-02-09 13:10:15,647 [BotThread] DEBUG Logger (null) - [统计插件] 停止
+2026-02-09 13:10:15,647 [BotThread] DEBUG Logger (null) - [任务插件] 停止
+2026-02-09 13:10:20,773 [1] INFO  Logger (null) - [Start] Now creating the BotThread.
+2026-02-09 13:10:20,814 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:10:20,815 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 13:10:20,815 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:10:20,815 [BotThread] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 13:10:20,816 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:10:20,816 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 13:10:20,817 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:10:20,819 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:10:20,819 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 13:10:20,819 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:10:20,820 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:10:20,820 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:10:20,820 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:10:20,820 [BotThread] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 13:10:20,821 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:10:20,821 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:10:20,821 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:10:20,822 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:10:20,822 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 新30暗.
+2026-02-09 13:10:20,822 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:10:20,822 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 13:10:20,823 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 13:10:20,823 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1000.
+2026-02-09 13:10:20,824 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:10:20,825 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 13:10:20,825 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:10:20,825 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:10:20,825 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:10:20,826 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:10:20,826 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:10:20,826 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:10:20,827 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:10:20,828 [BotThread] DEBUG Logger (null) - [自动停止插件] 开启
+2026-02-09 13:10:20,829 [BotThread] DEBUG Logger (null) - [监控插件] 开启
+2026-02-09 13:10:20,846 [BotThread] DEBUG Logger (null) - [统计插件] 开启
+2026-02-09 13:10:20,847 [1] INFO  Logger (null) - [监控插件] 合计: 战令233级(789/1500)(473/小时) 狂野钻石5 3星 391/966(胜40.48%) [598投] 
+2026-02-09 13:10:20,847 [BotThread] DEBUG Logger (null) - [任务插件] 开启
+2026-02-09 13:10:20,848 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-09 13:10:20,849 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:10:20,849 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:10:20,849 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:10:20,849 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:10:20,850 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-09 13:10:20,850 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:10:20,850 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:10:20,850 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:10:20,851 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:10:20,851 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:10:20,851 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨自定义丨空策略.
+2026-02-09 13:10:20,852 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:10:20,852 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:10:20,852 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:10:20,853 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:10:20,853 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-09 13:10:20,853 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:10:20,853 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:10:20,854 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:10:20,854 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:10:20,854 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:10:21,193 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:22,360 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:23,550 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:24,633 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:25,692 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:26,213 [1] INFO  Logger (null) - [Stop] Now requesting the BotThread to stop.
+2026-02-09 13:10:26,229 [BotThread] DEBUG Logger (null) - [自动停止插件] 停止
+2026-02-09 13:10:26,229 [BotThread] DEBUG Logger (null) - [监控插件] 停止
+2026-02-09 13:10:26,230 [BotThread] DEBUG Logger (null) - [统计插件] 停止
+2026-02-09 13:10:26,230 [BotThread] DEBUG Logger (null) - [任务插件] 停止
+2026-02-09 13:10:31,394 [1] INFO  Logger (null) - [Start] Now creating the BotThread.
+2026-02-09 13:10:31,448 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:10:31,449 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 13:10:31,449 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:10:31,450 [BotThread] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 13:10:31,450 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:10:31,450 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 13:10:31,451 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:10:31,451 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:10:31,452 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 13:10:31,452 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:10:31,452 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:10:31,453 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:10:31,453 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:10:31,453 [BotThread] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 13:10:31,453 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:10:31,454 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:10:31,454 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:10:31,454 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:10:31,455 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 新30暗.
+2026-02-09 13:10:31,455 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:10:31,455 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 13:10:31,455 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 13:10:31,456 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1000.
+2026-02-09 13:10:31,456 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:10:31,457 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 13:10:31,457 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:10:31,458 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:10:31,458 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:10:31,458 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:10:31,459 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:10:31,459 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:10:31,459 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:10:31,461 [BotThread] DEBUG Logger (null) - [自动停止插件] 开启
+2026-02-09 13:10:31,462 [BotThread] DEBUG Logger (null) - [监控插件] 开启
+2026-02-09 13:10:31,477 [BotThread] DEBUG Logger (null) - [统计插件] 开启
+2026-02-09 13:10:31,478 [1] INFO  Logger (null) - [监控插件] 合计: 战令233级(789/1500)(473/小时) 狂野钻石5 3星 391/966(胜40.48%) [598投] 
+2026-02-09 13:10:31,479 [BotThread] DEBUG Logger (null) - [任务插件] 开启
+2026-02-09 13:10:31,480 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-09 13:10:31,480 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:10:31,480 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:10:31,481 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:10:31,481 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:10:31,481 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-09 13:10:31,482 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:10:31,482 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:10:31,482 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:10:31,482 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:10:31,483 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:10:31,483 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨自定义丨空策略.
+2026-02-09 13:10:31,483 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:10:31,483 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:10:31,484 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:10:31,484 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:10:31,484 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-09 13:10:31,484 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:10:31,485 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:10:31,485 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:10:31,485 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:10:31,486 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:10:31,573 [BotThread] WARN  Logger (null) - 选择这张卡牌: 1
+2026-02-09 13:10:37,595 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:10:38,464 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-09 13:10:38,596 [1] INFO  Logger (null) - [Stop] Now requesting the BotThread to stop.
+2026-02-09 13:10:38,645 [BotThread] DEBUG Logger (null) - [自动停止插件] 停止
+2026-02-09 13:10:38,646 [BotThread] DEBUG Logger (null) - [监控插件] 停止
+2026-02-09 13:10:38,646 [BotThread] DEBUG Logger (null) - [统计插件] 停止
+2026-02-09 13:10:38,646 [BotThread] DEBUG Logger (null) - [任务插件] 停止
+2026-02-09 13:11:21,237 [1] INFO  Logger (null) - [Start] Now creating the BotThread.
+2026-02-09 13:11:21,280 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:11:21,281 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 13:11:21,281 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:11:21,281 [BotThread] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 13:11:21,282 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:11:21,282 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 13:11:21,283 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:11:21,283 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:11:21,284 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 13:11:21,284 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:11:21,284 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:11:21,284 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:11:21,285 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:11:21,285 [BotThread] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 13:11:21,285 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:11:21,285 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:11:21,286 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:11:21,286 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:11:21,286 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 新30暗.
+2026-02-09 13:11:21,287 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:11:21,287 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 13:11:21,287 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 13:11:21,288 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1000.
+2026-02-09 13:11:21,288 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:11:21,289 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 13:11:21,289 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:11:21,290 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:11:21,290 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:11:21,290 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:11:21,290 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:11:21,292 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:11:21,292 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:11:21,294 [BotThread] DEBUG Logger (null) - [自动停止插件] 开启
+2026-02-09 13:11:21,294 [BotThread] DEBUG Logger (null) - [监控插件] 开启
+2026-02-09 13:11:21,310 [BotThread] DEBUG Logger (null) - [统计插件] 开启
+2026-02-09 13:11:21,311 [BotThread] DEBUG Logger (null) - [任务插件] 开启
+2026-02-09 13:11:21,312 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-09 13:11:21,312 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:11:21,312 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:11:21,313 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:11:21,313 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:11:21,313 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-09 13:11:21,313 [1] INFO  Logger (null) - [监控插件] 合计: 战令233级(789/1500)(473/小时) 狂野钻石5 3星 391/966(胜40.48%) [598投] 
+2026-02-09 13:11:21,314 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:11:21,314 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:11:21,314 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:11:21,314 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:11:21,315 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:11:21,315 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨自定义丨空策略.
+2026-02-09 13:11:21,316 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:11:21,316 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:11:21,316 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:11:21,316 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:11:21,317 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-09 13:11:21,317 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:11:21,317 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:11:21,318 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:11:21,318 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:11:21,318 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:11:21,342 [BotThread] INFO  Logger (null) - [游戏开局前]
+2026-02-09 13:11:21,398 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-09 13:11:22,439 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-09 13:11:23,481 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-09 13:11:25,034 [BotThread] DEBUG Logger (null) - 使用: 乌鸦神像 暂时没有目标
+2026-02-09 13:11:27,494 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:11:28,687 [1] INFO  Logger (null) - [Stop] Now requesting the BotThread to stop.
+2026-02-09 13:11:28,715 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:11:28,778 [BotThread] DEBUG Logger (null) - [自动停止插件] 停止
+2026-02-09 13:11:28,779 [BotThread] DEBUG Logger (null) - [监控插件] 停止
+2026-02-09 13:11:28,779 [BotThread] DEBUG Logger (null) - [统计插件] 停止
+2026-02-09 13:11:28,779 [BotThread] DEBUG Logger (null) - [任务插件] 停止
+2026-02-09 13:12:52,477 [1] INFO  Logger (null) - [Start] Now creating the BotThread.
+2026-02-09 13:12:52,531 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:12:52,532 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 13:12:52,533 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:12:52,534 [BotThread] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 13:12:52,534 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:12:52,534 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 13:12:52,535 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 13:12:52,535 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:12:52,536 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 13:12:52,536 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:12:52,537 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:12:52,537 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:12:52,537 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:12:52,538 [BotThread] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 13:12:52,538 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:12:52,538 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:12:52,538 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:12:52,539 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 13:12:52,539 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 新30暗.
+2026-02-09 13:12:52,539 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 13:12:52,540 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 13:12:52,540 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 13:12:52,541 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1000.
+2026-02-09 13:12:52,541 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 13:12:52,542 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 13:12:52,542 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 13:12:52,543 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 13:12:52,543 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 13:12:52,543 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 13:12:52,544 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 13:12:52,544 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 13:12:52,544 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 13:12:52,546 [BotThread] DEBUG Logger (null) - [自动停止插件] 开启
+2026-02-09 13:12:52,546 [BotThread] DEBUG Logger (null) - [监控插件] 开启
+2026-02-09 13:12:52,563 [BotThread] DEBUG Logger (null) - [统计插件] 开启
+2026-02-09 13:12:52,565 [BotThread] DEBUG Logger (null) - [任务插件] 开启
+2026-02-09 13:12:52,565 [1] INFO  Logger (null) - [监控插件] 合计: 战令233级(789/1500)(473/小时) 狂野钻石5 3星 391/966(胜40.48%) [598投] 
+2026-02-09 13:12:52,566 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-09 13:12:52,566 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:12:52,566 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:12:52,567 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:12:52,567 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:12:52,567 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-09 13:12:52,567 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:12:52,568 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:12:52,568 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:12:52,568 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:12:52,568 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:12:52,569 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨自定义丨空策略.
+2026-02-09 13:12:52,569 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-09 13:12:52,569 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-09 13:12:52,570 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-09 13:12:52,570 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-09 13:12:52,570 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-09 13:12:52,571 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-09 13:12:52,571 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-09 13:12:52,571 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-09 13:12:52,571 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-09 13:12:52,572 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-09 13:12:53,267 [BotThread] DEBUG Logger (null) - 使用: 乌鸦神像 暂时没有目标
+2026-02-09 13:12:55,411 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:12:56,564 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:12:57,620 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-09 13:12:57,697 [1] INFO  Logger (null) - [Stop] Now requesting the BotThread to stop.
+2026-02-09 13:12:57,728 [BotThread] DEBUG Logger (null) - [自动停止插件] 停止
+2026-02-09 13:12:57,728 [BotThread] DEBUG Logger (null) - [监控插件] 停止
+2026-02-09 13:12:57,729 [BotThread] DEBUG Logger (null) - [统计插件] 停止
+2026-02-09 13:12:57,729 [BotThread] DEBUG Logger (null) - [任务插件] 停止

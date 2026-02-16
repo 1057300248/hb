@@ -1,0 +1,53 @@
+<XmlConfig>
+  <BattleNetPath>D:\Program Files (x86)\Battle.net\Battle.net Launcher.exe</BattleNetPath>
+  <HearthstonePath>D:\Program Files (x86)\Hearthstone</HearthstonePath>
+  <HearthbuddyPath>D:\Program Files (x86)\HB1.1.9\Hearthbuddy.exe</HearthbuddyPath>
+  <PushPlusToken>
+  </PushPlusToken>
+  <BNHSInterval>20</BNHSInterval>
+  <HSHBInterval>30</HSHBInterval>
+  <CheckInterval>10</CheckInterval>
+  <RebootCntMax>999</RebootCntMax>
+  <SystemVersion>0</SystemVersion>
+  <WindowWidth>1440</WindowWidth>
+  <WindowHeight>1000</WindowHeight>
+  <PushNormalInterval>2</PushNormalInterval>
+  <NeedCloseBattle>False</NeedCloseBattle>
+  <NeedMultStone>False</NeedMultStone>
+  <NeedPushMessage>True</NeedPushMessage>
+  <NeedPushNormal>False</NeedPushNormal>
+  <EnableHsMod>True</EnableHsMod>
+  <HsModPort>58744</HsModPort>
+  <EnableTimeGear>True</EnableTimeGear>
+  <NoFightTime>2</NoFightTime>
+  <PveFightTime>4</PveFightTime>
+  <PvpFightTime>1</PvpFightTime>
+  <AutoPatch>True</AutoPatch>
+  <BattleNetAccount>
+    <HASH96259896>
+      <Selected>True</Selected>
+      <AccountItem0>
+        <Mode>0</Mode>
+        <Enable>True</Enable>
+        <StartTimeHour>0</StartTimeHour>
+        <StartTimeMin>0</StartTimeMin>
+        <EndTimeHour>23</EndTimeHour>
+        <EndTimeMin>59</EndTimeMin>
+        <NormalRule>1</NormalRule>
+        <NormalBehavior>2</NormalBehavior>
+        <NormalDeck>2</NormalDeck>
+        <MercRule>0</MercRule>
+        <MercBehavior>0</MercBehavior>
+        <MercTeam>请配置队伍</MercTeam>
+        <MercMap>1-1</MercMap>
+        <MercInterval>22</MercInterval>
+        <MercConcede>False</MercConcede>
+        <MercCraft>True</MercCraft>
+        <MercUpdate>False</MercUpdate>
+      </AccountItem0>
+    </HASH96259896>
+    <HASH1506393346>
+      <Selected>False</Selected>
+    </HASH1506393346>
+  </BattleNetAccount>
+</XmlConfig>

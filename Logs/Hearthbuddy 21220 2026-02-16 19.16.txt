@@ -1,0 +1,24 @@
+2026-02-16 11:16:13,440 [1] INFO  Logger (null) - Hearthbuddy Version: 0.0.0.0
+Path: D:\Program Files (x86)\HB1.1.9\<ExeName>
+
+OS Name: Microsoft Windows 11 专业工作站版
+OS Version: 10.0.26100
+OS Architecture: 64 位
+InstalledUICulture: zh-CN [Chinese (Simplified, Mainland China)]
+CurrentUICulture: zh-CN [Chinese (Simplified, Mainland China)]
+CurrentCulture: zh-CN [Chinese (Simplified, Mainland China)]
+
+2026-02-16 11:16:13,463 [1] INFO  Logger (null) - Now setting up JitProfiles...
+2026-02-16 11:16:13,464 [1] INFO  Logger (null) - JitProfiles successfully setup!
+2026-02-16 11:16:13,464 [1] INFO  Logger (null) - Now beginning pre-start tasks.
+2026-02-16 11:16:13,464 [1] INFO  Logger (null) - Now checking prerequisites...
+2026-02-16 11:16:13,468 [1] ERROR Logger (null) - [中控设置] 手动设置操作系统 = Windows10.
+2026-02-16 11:16:13,649 [1] INFO  Logger (null) - Prerequisite check complete!
+2026-02-16 11:16:13,679 [1] INFO  Logger (null) - svchostPath: C:\Windows\System32\svchost.exe
+2026-02-16 11:16:13,696 [1] INFO  Logger (null) - Pre-start tasks successfully completed.
+2026-02-16 11:16:13,701 [1] INFO  Logger (null) - [AuthRegion] China.
+2026-02-16 11:16:13,966 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 5
+2026-02-16 11:16:13,966 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 20
+2026-02-16 11:16:13,991 [1] INFO  Logger (null) - Hearthbuddy [0.0.0.0] is up to date!
+2026-02-16 11:16:14,186 [1] ERROR Logger (null) - Invalid PID specifier passed to the command line: 16992
+2026-02-16 11:16:14,201 [1] ERROR Logger (null) - Could not attach to a Hearthstone process. Please make sure an available Hearthstone process is running.

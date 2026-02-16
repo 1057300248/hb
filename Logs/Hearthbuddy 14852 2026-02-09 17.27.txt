@@ -1,0 +1,68 @@
+2026-02-09 09:27:42,283 [1] INFO  Logger (null) - Hearthbuddy Version: 0.0.0.0
+Path: C:\Users\<Username>\Desktop\HB1.1.8\<ExeName>
+
+OS Name: Microsoft Windows 10 专业版
+OS Version: 10.0.19045
+OS Architecture: 64 位
+InstalledUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentCulture: zh-CN [Chinese (Simplified, China)]
+
+2026-02-09 09:27:42,302 [1] INFO  Logger (null) - Now setting up JitProfiles...
+2026-02-09 09:27:42,303 [1] INFO  Logger (null) - JitProfiles successfully setup!
+2026-02-09 09:27:42,303 [1] INFO  Logger (null) - Now beginning pre-start tasks.
+2026-02-09 09:27:42,304 [1] INFO  Logger (null) - Now checking prerequisites...
+2026-02-09 09:27:42,308 [1] ERROR Logger (null) - [中控设置] 默认设置操作系统 = Windows10.
+2026-02-09 09:27:42,580 [1] INFO  Logger (null) - Prerequisite check complete!
+2026-02-09 09:27:42,606 [1] INFO  Logger (null) - svchostPath: C:\Windows\System32\svchost.exe
+2026-02-09 09:27:42,630 [1] INFO  Logger (null) - Pre-start tasks successfully completed.
+2026-02-09 09:27:42,635 [1] INFO  Logger (null) - [AuthRegion] China.
+2026-02-09 09:27:42,875 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 5
+2026-02-09 09:27:42,876 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 20
+2026-02-09 09:27:42,901 [1] INFO  Logger (null) - Hearthbuddy [0.0.0.0] is up to date!
+2026-02-09 09:27:43,209 [1] INFO  Logger (null) - 检测到炉石进程！
+2026-02-09 09:27:44,148 [10] INFO  Logger (null) - 绑定到炉石进程！
+2026-02-09 09:27:44,198 [10] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 09:27:44,200 [10] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 09:27:44,200 [10] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 09:27:44,200 [10] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 09:27:44,201 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 09:27:44,202 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 09:27:44,202 [10] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 09:27:44,203 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 09:27:44,204 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 09:27:44,204 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 09:27:44,205 [10] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 09:27:44,205 [10] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 09:27:44,206 [10] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 09:27:44,206 [10] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 09:27:44,207 [10] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 09:27:44,208 [10] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 09:27:44,232 [10] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 09:27:44,232 [10] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 鸡蛋龙德.
+2026-02-09 09:27:44,233 [10] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 09:27:44,234 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 09:27:44,234 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 09:27:44,234 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 09:27:44,235 [10] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = False.
+2026-02-09 09:27:44,235 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 09:27:44,235 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 09:27:44,236 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 09:27:44,236 [10] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 09:27:44,237 [10] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 09:27:44,237 [10] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 09:27:44,238 [10] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 09:27:44,238 [10] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.1.
+2026-02-09 09:27:44,255 [10] DEBUG Logger (null) - Reloading AssemblyLoader<Triton.Bot.IRoutine> - Initializing
+2026-02-09 09:27:44,255 [1] DEBUG Logger (null) - Current bot set to 天梯脚本.
+2026-02-09 09:27:50,832 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0020-探险者协会\Sim_LOE_110.cs(5,24) : error CS1514: 应输入 {
+2026-02-09 09:27:50,833 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0020-探险者协会\Sim_LOE_110.cs(11,4) : error CS1519: 类、结构或接口成员声明中的标记“{”无效
+2026-02-09 09:27:51,155 [10] DEBUG Logger (null) - [自动停止插件] 初始化
+2026-02-09 09:27:51,165 [10] DEBUG Logger (null) - [监控插件] 初始化
+2026-02-09 09:27:51,182 [10] DEBUG Logger (null) - [统计插件] 初始化
+2026-02-09 09:27:51,191 [10] DEBUG Logger (null) - [任务插件] 初始化
+2026-02-09 09:27:51,195 [10] DEBUG Logger (null) - [自动停止插件] 启用
+2026-02-09 09:27:51,228 [10] DEBUG Logger (null) - [监控插件] 启用
+2026-02-09 09:27:51,262 [10] DEBUG Logger (null) - [统计插件] 启用
+2026-02-09 09:27:51,296 [10] DEBUG Logger (null) - [任务插件] 启用
+2026-02-09 09:27:51,394 [10] ERROR Logger (null) - 炉石学习V1.1.8内核开源版本--[2026-2-2]--禁止以收费形式单独分发本软件或二次打包开源内容进行售卖

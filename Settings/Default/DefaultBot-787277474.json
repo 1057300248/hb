@@ -1,0 +1,21 @@
+{
+  "NowWinGameCount": 0,
+  "NowLoseGameCount": 0,
+  "ConstructedGameRule": 1,
+  "ConstructedCustomDeck": "任务战",
+  "LastDeckId": 0,
+  "AutoGreet": false,
+  "ReleaseLimitW": 1440,
+  "ReleaseLimitH": 1000,
+  "ReleaseLimit": true,
+  "AutoConcedeAfterConstructedWin": false,
+  "AutoConcedeNumberOfWins": 1,
+  "AutoConcedeNumberOfLosses": 1,
+  "NormalConcede": false,
+  "ForceConcedeAtMulligan": false,
+  "JudgmentOpponentNameConcede": false,
+  "AutoConcedeMinDelayMs": 1500,
+  "AutoConcedeMaxDelayMs": 3000,
+  "SliderShopSpeedRatioText": "1.0",
+  "SliderShopSpeedRatio": 1.0
+}

@@ -1,0 +1,21 @@
+{
+  "NowWinGameCount": 0,
+  "NowLoseGameCount": 0,
+  "ConstructedGameRule": 2,
+  "ConstructedCustomDeck": "佛祖光环骑",
+  "LastDeckId": 0,
+  "AutoGreet": true,
+  "ReleaseLimitW": 1440,
+  "ReleaseLimitH": 1080,
+  "ReleaseLimit": false,
+  "AutoConcedeAfterConstructedWin": true,
+  "AutoConcedeNumberOfWins": 1,
+  "AutoConcedeNumberOfLosses": 1,
+  "NormalConcede": false,
+  "ForceConcedeAtMulligan": false,
+  "JudgmentOpponentNameConcede": false,
+  "AutoConcedeMinDelayMs": 1500,
+  "AutoConcedeMaxDelayMs": 3000,
+  "SliderShopSpeedRatioText": "3.0",
+  "SliderShopSpeedRatio": 3.523077
+}

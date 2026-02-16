@@ -1,0 +1,11 @@
+//倒霉的炸药师
+WW_367;warrior;None;Hold:2;/
+//剃刀沼泽摇滚明星
+ETC_355;warrior;None;Discard:2;/
+//萨隆苦囚
+ICC_466;warrior;None;Hold:1;/
+//雷纳索尔王子
+REV_018;warrior;None;Discard:2;/
+CORE_REV_018;warrior;None;Discard:2;/
+//奇利亚斯豪华版3000型
+TOY_330t5;warrior;None;Discard:2;/

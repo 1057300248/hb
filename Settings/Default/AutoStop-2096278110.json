@@ -1,0 +1,12 @@
+{
+  "Wins": 20,
+  "Losses": 15,
+  "StopGameCount": 1,
+  "StopWinCount": 1,
+  "StopLossCount": 1,
+  "StopAfterXGames": false,
+  "StopAfterXWins": false,
+  "StopAfterXLosses": false,
+  "ConcedeAfterXMinutes": true,
+  "ConcedeMinutesCount": 32
+}

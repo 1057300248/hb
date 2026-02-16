@@ -1,0 +1,631 @@
+NewGame
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:11 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 1 -100 1 6 1 7
+cut to len 去重从3 到 3
+cut to len 去重从8 到 5
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -18
+bestplay.playactions ################################# START
+使用英雄技能 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.2926953
+使用英雄技能 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:14 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从3 到 3
+cut to len 去重从4 到 2
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -3
+bestplay.playactions ################################# START
+让英雄攻击 敌方英雄(29) 惩罚值：-10 
+bestplay.playactions ################################# END
+calculated 0.3311923
+让英雄攻击 敌方英雄(29) 惩罚值：-10 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:17 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:37 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 2 -100 2 1 2 1
+cut to len 去重从8 到 8
+cut to len 去重从42 到 20
+cut to len 去重从71 到 23
+cut to len 去重从40 到 10
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -19
+bestplay.playactions ################################# START
+打出 伊利达雷研习 目标 空 惩罚值：0 
+使用随从 荆棘帮暴徒(3,1) 攻击 卑劣的脏鼠(2,3) 惩罚值：-10 
+使用英雄技能 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 1.014542
+打出 伊利达雷研习 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:47 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+minions count or hand changed
+cut to len 去重从4 到 4
+cut to len 去重从14 到 8
+cut to len 去重从13 到 5
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -18
+bestplay.playactions ################################# START
+使用随从 荆棘帮暴徒(3,1) 攻击 卑劣的脏鼠(2,3) 惩罚值：-10 
+使用英雄技能 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.5054801
+使用随从 荆棘帮暴徒(3,1) 攻击 卑劣的脏鼠(2,3) 惩罚值：-10 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:49 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从3 到 3
+cut to len 去重从8 到 5
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -28
+bestplay.playactions ################################# START
+使用英雄技能 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.2261608
+使用英雄技能 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:51 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从3 到 3
+cut to len 去重从4 到 2
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -8
+bestplay.playactions ################################# START
+让英雄攻击 卑劣的脏鼠(2,2) 惩罚值：-10 
+bestplay.playactions ################################# END
+calculated 0.2027346
+让英雄攻击 卑劣的脏鼠(2,2) 惩罚值：-10 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:00:53 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从2 到 2
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -11
+bestplay.playactions ################################# START
+bestplay.playactions ################################# END
+calculated 0.1718104
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:01:41 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 3 -100 3 2 3 2
+cut to len 去重从10 到 10
+cut to len 去重从58 到 30
+cut to len 去重从115 到 40
+cut to len 去重从71 到 19
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -4
+bestplay.playactions ################################# START
+使用英雄技能 目标 空 惩罚值：0 
+使用随从 荆棘帮暴徒(4,0) 攻击 卑劣的脏鼠(2,-2) 惩罚值：-10 
+打出 甘尔葛战刃铸造师(3,3) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 1.8533406
+使用英雄技能 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:01:44 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从8 到 8
+cut to len 去重从45 到 27
+cut to len 去重从93 到 41
+cut to len 去重从84 到 30
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board 19
+bestplay.playactions ################################# START
+使用随从 荆棘帮暴徒(4,0) 攻击 卑劣的脏鼠(2,-2) 惩罚值：-10 
+让英雄攻击 玩具盗窃恶鬼(2,0) 惩罚值：-10 
+打出 甘尔葛战刃铸造师(3,3) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 1.5217189
+使用随从 荆棘帮暴徒(4,0) 攻击 卑劣的脏鼠(2,-2) 惩罚值：-10 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:01:48 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+enemyminions changed
+cut to len 去重从8 到 8
+cut to len 去重从40 到 24
+cut to len 去重从52 到 20
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board 15
+bestplay.playactions ################################# START
+让英雄攻击 玩具盗窃恶鬼(2,0) 惩罚值：-10 
+打出 甘尔葛战刃铸造师(3,3) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.8244709
+让英雄攻击 玩具盗窃恶鬼(2,0) 惩罚值：-10 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:01:50 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+打出 甘尔葛战刃铸造师(3,3) 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:01:53 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownhero changed 24 24 4 1 0 0 False False False False False False
+cut to len 去重从2 到 2
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board 16
+bestplay.playactions ################################# START
+bestplay.playactions ################################# END
+calculated 0.1989904
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:02:31 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 4 -100 4 3 4 3
+cut to len 去重从12 到 12
+cut to len 去重从102 到 50
+cut to len 去重从279 到 84
+cut to len 去重从163 到 50
+cut to len 去重从23 到 9
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -48
+bestplay.playactions ################################# START
+使用英雄技能 目标 空 惩罚值：0 
+使用随从 甘尔葛战刃铸造师(3,0) 攻击 蛛魔护群守卫(1,0) 惩罚值：-10 
+打出 荆棘帮暴徒(3,3) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 2.4033241
+使用英雄技能 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:02:35 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从14 到 14
+cut to len 去重从123 到 60
+cut to len 去重从314 到 89
+cut to len 去重从165 到 44
+cut to len 去重从24 到 15
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -37
+bestplay.playactions ################################# START
+让英雄攻击 蛛魔护群守卫(1,2) 惩罚值：-10 
+使用随从 甘尔葛战刃铸造师(3,0) 攻击 蛛魔护群守卫(1,0) 惩罚值：-10 
+打出 荆棘帮暴徒(3,3) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 2.2604586
+让英雄攻击 蛛魔护群守卫(1,2) 惩罚值：-10 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:02:39 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从11 到 11
+cut to len 去重从72 到 32
+cut to len 去重从100 到 27
+cut to len 去重从26 到 9
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -47
+bestplay.playactions ################################# START
+打出 荆棘帮暴徒(3,3) 目标 空 惩罚值：0 
+使用随从 甘尔葛战刃铸造师(3,0) 攻击 蛛魔护群守卫(1,0) 惩罚值：-10 
+bestplay.playactions ################################# END
+calculated 1.3620776
+打出 荆棘帮暴徒(3,3) 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:02:43 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从5 到 5
+cut to len 去重从12 到 5
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -36
+bestplay.playactions ################################# START
+使用随从 甘尔葛战刃铸造师(3,0) 攻击 蛛魔护群守卫(1,0) 惩罚值：-10 
+bestplay.playactions ################################# END
+calculated 0.3406394
+使用随从 甘尔葛战刃铸造师(3,0) 攻击 蛛魔护群守卫(1,0) 惩罚值：-10 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:02:46 V2025.08.08 丨通用丨不设惩罚 5500 maxCal 60 maxWide 5500 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从2 到 2
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -43
+bestplay.playactions ################################# START
+bestplay.playactions ################################# END
+calculated 0.1446296
+#################### Settings #########################################
+path = .\Routines\DefaultRoutine\Silverfish\Data\
+logpath = .\Routines\DefaultRoutine\Silverfish\UltimateLogs\
+logfile = UILogg_2026-02-16_18-59-46.txt
+twotsamount = 1
+secondTurnAmount = 1
+playaroundprob2 = 80
+playaroundprob = 50
+nextTurnTotalBoards = 200
+nextTurnMaxWide = 20
+nextTurnDeep = 10
+maxwide = 3000
+enfacehp = 20
+weaponOnlyAttackMobsUntilEnfacehp = 3
+enemyTurnMaxWideSecondStep = 230
+enemyTurnMaxWide = 40
+alpha = 80
+secondweight = 0.8
+firstweight = 0.2
+writeToSingleFile = False
+useSecretsPlayAround = True
+useExternalProcess = False
+placement = 0
+simulateEnemysTurn = True
+printlearnmode = True
+playaround = True
+passiveWaiting = False
+learnmode = True
+enemyConcede = False
+concede = False
+speedupLevel = 0
+adjustActions = 0
+#################### Settings End #####################################
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:03:46 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 5 -100 5 4 5 4
+cut to len 去重从13 到 13
+cut to len 去重从120 到 63
+cut to len 去重从406 到 125
+cut to len 去重从276 到 96
+cut to len 去重从125 到 44
+cut to len 去重从42 到 12
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1036
+bestplay.playactions ################################# START
+打出 末日准备狂(5,4) 目标 空 惩罚值：0 
+使用随从 荆棘帮暴徒(3,2) 攻击 蛛魔护群守卫(1,0) 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 3.980528
+打出 末日准备狂(5,4) 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:03:52 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从4 到 4
+cut to len 去重从14 到 9
+cut to len 去重从22 到 12
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1022
+bestplay.playactions ################################# START
+打出 幸运币 目标 空 惩罚值：0 
+使用随从 荆棘帮暴徒(3,2) 攻击 蛛魔护群守卫(1,0) 惩罚值：0 
+打出 战斗邪犬(1,2) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.4260201
+打出 幸运币 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:03:55 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从5 到 5
+cut to len 去重从12 到 8
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1032
+bestplay.playactions ################################# START
+使用随从 荆棘帮暴徒(3,2) 攻击 蛛魔护群守卫(1,0) 惩罚值：0 
+打出 战斗邪犬(1,2) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.2716053
+使用随从 荆棘帮暴徒(3,2) 攻击 蛛魔护群守卫(1,0) 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:03:57 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从3 到 3
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1029
+bestplay.playactions ################################# START
+打出 战斗邪犬(1,2) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.1244125
+打出 战斗邪犬(1,2) 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:04:00 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1019
+bestplay.playactions ################################# START
+bestplay.playactions ################################# END
+calculated 0.0503811
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:04:44 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 6 -100 6 5 6 5
+cut to len 去重从13 到 13
+cut to len 去重从104 到 54
+cut to len 去重从273 到 95
+cut to len 去重从67 到 28
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -625
+bestplay.playactions ################################# START
+打出 眼棱 目标 丑恶的残躯(3,2) 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+使用英雄技能 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 2.3777748
+打出 眼棱 目标 丑恶的残躯(3,2) 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:04:49 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+enemyminions changed
+cut to len 去重从5 到 5
+cut to len 去重从20 到 10
+cut to len 去重从7 到 3
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -626
+bestplay.playactions ################################# START
+打出 混乱打击 目标 空 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+使用英雄技能 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.5672097
+打出 混乱打击 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:04:52 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从8 到 8
+cut to len 去重从15 到 12
+cut to len 去重从19 到 12
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -370
+bestplay.playactions ################################# START
+让英雄攻击 蛛魔护群守卫(1,0) 惩罚值：0 
+打出 邪能响尾蛇(3,2) 目标 空 惩罚值：0 
+使用随从 邪能响尾蛇(3,-1) 攻击 丑恶的残躯(3,-1) 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.5259078
+让英雄攻击 蛛魔护群守卫(1,0) 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:04:55 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+enemyminions changed
+cut to len 去重从7 到 7
+cut to len 去重从10 到 8
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -368
+bestplay.playactions ################################# START
+打出 邪能响尾蛇(3,2) 目标 空 惩罚值：0 
+使用随从 邪能响尾蛇(3,-1) 攻击 丑恶的残躯(3,-1) 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.2969924
+打出 邪能响尾蛇(3,2) 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:04:57 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从3 到 3
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -358
+bestplay.playactions ################################# START
+使用随从 邪能响尾蛇(3,-1) 攻击 丑恶的残躯(3,-1) 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.1296133
+使用随从 邪能响尾蛇(3,-1) 攻击 丑恶的残躯(3,-1) 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:04:59 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+minions count or hand changed
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -280
+bestplay.playactions ################################# START
+bestplay.playactions ################################# END
+calculated 0.0459854
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:05:47 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 7 -100 7 6 7 6
+cut to len 去重从7 到 7
+cut to len 去重从40 到 23
+cut to len 去重从88 到 31
+cut to len 去重从37 到 9
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1784
+bestplay.playactions ################################# START
+使用英雄技能 目标 空 惩罚值：0 
+打出 火色魔印奔行者(1,1) 目标 空 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 1.2070892
+使用英雄技能 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:05:50 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从8 到 8
+cut to len 去重从44 到 29
+cut to len 去重从86 到 35
+cut to len 去重从42 到 13
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1786
+bestplay.playactions ################################# START
+打出 火色魔印奔行者(1,1) 目标 空 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 1.5400128
+打出 火色魔印奔行者(1,1) 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:05:54 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+ownminions changed
+cut to len 去重从8 到 8
+cut to len 去重从24 到 16
+cut to len 去重从16 到 5
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1802
+bestplay.playactions ################################# START
+打出 扎依出彩艺人(6,4) 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.6453412
+打出 扎依出彩艺人(6,4) 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:05:57 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+minions count or hand changed
+cut to len 去重从2 到 2
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -1792
+bestplay.playactions ################################# START
+bestplay.playactions ################################# END
+calculated 0.0549649
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:06:57 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+法力水晶改变 8 -100 8 7 8 7
+cut to len 去重从15 到 15
+cut to len 去重从124 到 65
+cut to len 去重从362 到 146
+cut to len 去重从228 到 113
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -4520
+bestplay.playactions ################################# START
+使用英雄技能 目标 空 惩罚值：0 
+打出 眼棱 目标 玩具盗窃恶鬼(8,5) 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 2.8344591
+使用英雄技能 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:07:01 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从16 到 16
+cut to len 去重从144 到 77
+cut to len 去重从328 到 146
+cut to len 去重从136 到 69
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -4522
+bestplay.playactions ################################# START
+打出 眼棱 目标 玩具盗窃恶鬼(8,5) 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 2.4182125
+打出 眼棱 目标 玩具盗窃恶鬼(8,5) 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:07:06 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+enemyminions changed
+cut to len 去重从6 到 6
+cut to len 去重从24 到 17
+cut to len 去重从32 到 15
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -4524
+bestplay.playactions ################################# START
+打出 混乱打击 目标 空 惩罚值：0 
+打出 混乱打击 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.8763678
+打出 混乱打击 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:07:10 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从6 到 6
+cut to len 去重从8 到 8
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -5529
+bestplay.playactions ################################# START
+打出 混乱打击 目标 空 惩罚值：0 
+bestplay.playactions ################################# END
+calculated 0.2607736
+打出 混乱打击 目标 空 惩罚值：0 
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 19:07:12 V2025.08.08 丨狂野丨十职业通用挂机 10000 maxCal 60 maxWide 10000 face 20 womob:3 twoturnsim 1 ntss 10 20 200 playaround 50 80 ets 40 ets2 230 secret weight 80 aA 0
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+cut to len 去重从2 到 2
+cut to len 去重从0 到 0
+-------------------------------------
+value of best board -6533
+bestplay.playactions ################################# START
+bestplay.playactions ################################# END
+calculated 0.0789087

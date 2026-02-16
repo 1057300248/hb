@@ -1,0 +1,79 @@
+2026-02-08 05:11:37,051 [1] INFO  Logger (null) - Hearthbuddy Version: 0.0.0.0
+Path: C:\Users\<Username>\Desktop\HB1.1.8\<ExeName>
+
+OS Name: Microsoft Windows 10 专业版
+OS Version: 10.0.19045
+OS Architecture: 64 位
+InstalledUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentCulture: zh-CN [Chinese (Simplified, China)]
+
+2026-02-08 05:11:37,069 [1] INFO  Logger (null) - Now setting up JitProfiles...
+2026-02-08 05:11:37,070 [1] INFO  Logger (null) - JitProfiles successfully setup!
+2026-02-08 05:11:37,070 [1] INFO  Logger (null) - Now beginning pre-start tasks.
+2026-02-08 05:11:37,070 [1] INFO  Logger (null) - Now checking prerequisites...
+2026-02-08 05:11:37,074 [1] ERROR Logger (null) - [中控设置] 默认设置操作系统 = Windows10.
+2026-02-08 05:11:37,396 [1] INFO  Logger (null) - Prerequisite check complete!
+2026-02-08 05:11:37,419 [1] INFO  Logger (null) - svchostPath: C:\Windows\System32\svchost.exe
+2026-02-08 05:11:37,440 [1] INFO  Logger (null) - Pre-start tasks successfully completed.
+2026-02-08 05:11:37,445 [1] INFO  Logger (null) - [AuthRegion] China.
+2026-02-08 05:11:37,672 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 5
+2026-02-08 05:11:37,672 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 20
+2026-02-08 05:11:37,697 [1] INFO  Logger (null) - Hearthbuddy [0.0.0.0] is up to date!
+2026-02-08 05:11:37,996 [1] INFO  Logger (null) - 检测到炉石进程！
+2026-02-08 05:11:38,906 [11] INFO  Logger (null) - 绑定到炉石进程！
+2026-02-08 05:11:38,949 [11] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-08 05:11:38,950 [11] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-08 05:11:38,950 [11] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-08 05:11:38,951 [11] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-08 05:11:38,951 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-08 05:11:38,952 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-08 05:11:38,953 [11] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-08 05:11:38,953 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-08 05:11:38,954 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-08 05:11:38,954 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-08 05:11:38,955 [11] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-08 05:11:38,955 [11] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-08 05:11:38,956 [11] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-08 05:11:38,956 [11] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-08 05:11:38,957 [11] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-08 05:11:38,957 [11] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-08 05:11:38,980 [11] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-08 05:11:38,980 [11] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 鸡蛋龙德.
+2026-02-08 05:11:38,981 [11] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-08 05:11:38,981 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-08 05:11:38,982 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-08 05:11:38,982 [11] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-08 05:11:38,982 [11] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = False.
+2026-02-08 05:11:38,983 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-08 05:11:38,983 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-08 05:11:38,983 [11] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-08 05:11:38,984 [11] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-08 05:11:38,984 [11] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-08 05:11:38,985 [11] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-08 05:11:38,985 [11] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-08 05:11:38,985 [11] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.1.
+2026-02-08 05:11:39,001 [11] DEBUG Logger (null) - Reloading AssemblyLoader<Triton.Bot.IRoutine> - Initializing
+2026-02-08 05:11:39,001 [1] DEBUG Logger (null) - Current bot set to 天梯脚本.
+2026-02-08 05:11:46,557 [11] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_029.cs(18,30) : error CS0115: “HREngine.Bots.Sim_AT_029.onWeaponEquipped(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Weapon)”: 没有找到适合的方法来重写
+2026-02-08 05:11:46,558 [11] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_031.cs(20,30) : error CS0115: “HREngine.Bots.Sim_AT_031.onMinionAttack(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int, HREngine.Bots.Minion)”: 没有找到适合的方法来重写
+2026-02-08 05:11:46,558 [11] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_035.cs(39,30) : error CS0115: “HREngine.Bots.Sim_AT_035.onCardDrawn(HREngine.Bots.Playfield, bool)”: 没有找到适合的方法来重写
+2026-02-08 05:11:46,558 [11] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_035t.cs(20,30) : error CS0115: “HREngine.Bots.Sim_AT_035t.onCardDrawn(HREngine.Bots.Playfield, bool)”: 没有找到适合的方法来重写
+2026-02-08 05:11:46,559 [11] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_067.cs(20,30) : error CS0115: “HREngine.Bots.Sim_AT_067.onMinionAttack(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int, HREngine.Bots.Minion)”: 没有找到适合的方法来重写
+2026-02-08 05:11:46,559 [11] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_070.cs(17,29) : error CS0115: “HREngine.Bots.Sim_AT_070.getCardCost(HREngine.Bots.Playfield)”: 没有找到适合的方法来重写
+2026-02-08 05:11:46,560 [11] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_077.cs(22,29) : warning CS0114: “HREngine.Bots.Sim_AT_077.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”将隐藏继承的成员“HREngine.Bots.SimTemplate.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-08 05:11:46,560 [11] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1892-决战荒芜之地\Sim_WW_819.cs(14,29) : warning CS0114: “HREngine.Bots.Sim_WW_819.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”将隐藏继承的成员“HREngine.Bots.SimTemplate.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-08 05:11:46,560 [11] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1935-深暗领域\Sim_GDB_145.cs(14,23) : warning CS0114: “HREngine.Bots.Sim_GDB_145.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”将隐藏继承的成员“HREngine.Bots.SimTemplate.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-08 05:11:46,561 [11] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1935-深暗领域\Sim_GDB_231.cs(14,23) : warning CS0114: “HREngine.Bots.Sim_GDB_231.onHeroattack(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion)”将隐藏继承的成员“HREngine.Bots.SimTemplate.onHeroattack(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-08 05:11:46,561 [11] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1946-翡翠梦境\Sim_EDR_000.cs(16,23) : warning CS0114: “HREngine.Bots.Sim_EDR_000.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”将隐藏继承的成员“HREngine.Bots.SimTemplate.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-08 05:11:46,561 [11] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1946-翡翠梦境\Sim_EDR_844.cs(14,23) : warning CS0114: “HREngine.Bots.Sim_EDR_844.onAuraStarts(HREngine.Bots.Playfield, HREngine.Bots.Minion)”将隐藏继承的成员“HREngine.Bots.SimTemplate.onAuraStarts(HREngine.Bots.Playfield, HREngine.Bots.Minion)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-08 05:11:46,561 [11] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1946-翡翠梦境\Sim_EDR_844.cs(19,23) : warning CS0114: “HREngine.Bots.Sim_EDR_844.onAuraEnds(HREngine.Bots.Playfield, HREngine.Bots.Minion)”将隐藏继承的成员“HREngine.Bots.SimTemplate.onAuraEnds(HREngine.Bots.Playfield, HREngine.Bots.Minion)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-08 05:11:46,880 [11] DEBUG Logger (null) - [自动停止插件] 初始化
+2026-02-08 05:11:46,890 [11] DEBUG Logger (null) - [监控插件] 初始化
+2026-02-08 05:11:46,904 [11] DEBUG Logger (null) - [统计插件] 初始化
+2026-02-08 05:11:46,914 [11] DEBUG Logger (null) - [任务插件] 初始化
+2026-02-08 05:11:46,916 [11] DEBUG Logger (null) - [自动停止插件] 启用
+2026-02-08 05:11:46,966 [11] DEBUG Logger (null) - [监控插件] 启用
+2026-02-08 05:11:46,999 [11] DEBUG Logger (null) - [统计插件] 启用
+2026-02-08 05:11:47,033 [11] DEBUG Logger (null) - [任务插件] 启用
+2026-02-08 05:11:47,128 [11] ERROR Logger (null) - 炉石学习V1.1.8内核开源版本--[2026-2-2]--禁止以收费形式单独分发本软件或二次打包开源内容进行售卖

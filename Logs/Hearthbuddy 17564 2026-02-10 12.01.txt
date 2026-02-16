@@ -1,0 +1,439 @@
+2026-02-10 04:01:58,807 [1] INFO  Logger (null) - Hearthbuddy Version: 0.0.0.0
+Path: C:\Users\<Username>\Desktop\HB1.1.9\<ExeName>
+
+OS Name: Microsoft Windows 10 专业版
+OS Version: 10.0.19045
+OS Architecture: 64 位
+InstalledUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentCulture: zh-CN [Chinese (Simplified, China)]
+
+2026-02-10 04:01:58,824 [1] INFO  Logger (null) - Now setting up JitProfiles...
+2026-02-10 04:01:58,825 [1] INFO  Logger (null) - JitProfiles successfully setup!
+2026-02-10 04:01:58,825 [1] INFO  Logger (null) - Now beginning pre-start tasks.
+2026-02-10 04:01:58,825 [1] INFO  Logger (null) - Now checking prerequisites...
+2026-02-10 04:01:58,830 [1] ERROR Logger (null) - [中控设置] 手动设置操作系统 = Windows10.
+2026-02-10 04:01:59,265 [1] INFO  Logger (null) - Prerequisite check complete!
+2026-02-10 04:01:59,286 [1] INFO  Logger (null) - svchostPath: C:\Windows\System32\svchost.exe
+2026-02-10 04:01:59,304 [1] INFO  Logger (null) - Pre-start tasks successfully completed.
+2026-02-10 04:01:59,308 [1] INFO  Logger (null) - [AuthRegion] China.
+2026-02-10 04:01:59,539 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 5
+2026-02-10 04:01:59,539 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 20
+2026-02-10 04:01:59,565 [1] INFO  Logger (null) - Hearthbuddy [0.0.0.0] is up to date!
+2026-02-10 04:01:59,771 [1] INFO  Logger (null) - 检测到炉石进程！
+2026-02-10 04:02:00,780 [12] INFO  Logger (null) - 绑定到炉石进程！
+2026-02-10 04:02:00,822 [12] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-10 04:02:00,823 [12] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-10 04:02:00,824 [12] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-10 04:02:00,824 [12] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-10 04:02:00,825 [12] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-10 04:02:00,825 [12] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-10 04:02:00,826 [12] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-10 04:02:00,826 [12] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-10 04:02:00,827 [12] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-10 04:02:00,827 [12] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-10 04:02:00,828 [12] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-10 04:02:00,828 [12] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-10 04:02:00,829 [12] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-10 04:02:00,829 [12] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-10 04:02:00,830 [12] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-10 04:02:00,830 [12] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-10 04:02:00,854 [12] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-10 04:02:00,854 [12] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 鸡蛋龙德.
+2026-02-10 04:02:00,855 [12] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-10 04:02:00,855 [12] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-10 04:02:00,856 [12] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-10 04:02:00,856 [12] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-10 04:02:00,856 [12] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = False.
+2026-02-10 04:02:00,857 [12] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-10 04:02:00,857 [12] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-10 04:02:00,857 [12] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-10 04:02:00,858 [12] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-10 04:02:00,858 [12] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-10 04:02:00,858 [12] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-10 04:02:00,859 [12] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-10 04:02:00,859 [12] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.1.
+2026-02-10 04:02:00,874 [1] DEBUG Logger (null) - Current bot set to 天梯脚本.
+2026-02-10 04:02:14,219 [12] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-10 04:02:14,221 [12] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-10 04:02:14,221 [12] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-10 04:02:14,222 [12] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-10 04:02:14,222 [12] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-10 04:02:14,223 [12] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-10 04:02:14,223 [12] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-10 04:02:14,223 [12] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-10 04:02:14,224 [12] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-10 04:02:14,224 [12] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-10 04:02:14,225 [12] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-10 04:02:14,229 [12] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨狂野丨十职业通用挂机.
+2026-02-10 04:02:14,229 [12] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-10 04:02:14,230 [12] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-10 04:02:14,230 [12] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-10 04:02:14,231 [12] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-10 04:02:14,231 [12] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-10 04:02:14,231 [12] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-10 04:02:14,232 [12] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-10 04:02:14,232 [12] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-10 04:02:14,232 [12] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-10 04:02:14,233 [12] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-10 04:02:14,826 [1] DEBUG Logger (null) - Current routine set to 天梯策略.
+2026-02-10 04:02:14,837 [12] DEBUG Logger (null) - [自动停止插件] 初始化
+2026-02-10 04:02:14,845 [12] DEBUG Logger (null) - [监控插件] 初始化
+2026-02-10 04:02:14,868 [12] DEBUG Logger (null) - [统计插件] 初始化
+2026-02-10 04:02:14,883 [12] DEBUG Logger (null) - [任务插件] 初始化
+2026-02-10 04:02:14,897 [12] DEBUG Logger (null) - [自动停止插件] 启用
+2026-02-10 04:02:14,931 [12] DEBUG Logger (null) - [监控插件] 启用
+2026-02-10 04:02:14,964 [12] DEBUG Logger (null) - [统计插件] 启用
+2026-02-10 04:02:15,014 [12] DEBUG Logger (null) - [任务插件] 启用
+2026-02-10 04:02:15,112 [12] ERROR Logger (null) - 炉石学习V1.1.9内核开源版本--[2026-2-10]--禁止以收费形式单独分发本软件或二次打包开源内容进行售卖
+2026-02-10 04:02:15,132 [12] INFO  Logger (null) - [Start] Now creating the BotThread.
+2026-02-10 04:02:18,786 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-10 04:02:18,787 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-10 04:02:18,787 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-10 04:02:18,787 [BotThread] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-10 04:02:18,788 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-10 04:02:18,788 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-10 04:02:18,788 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-10 04:02:18,788 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-10 04:02:18,790 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-10 04:02:18,790 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-10 04:02:18,790 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-10 04:02:18,791 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-10 04:02:18,791 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-10 04:02:18,791 [BotThread] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-10 04:02:18,791 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-10 04:02:18,792 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-10 04:02:18,792 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-10 04:02:18,792 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-10 04:02:18,792 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 新30暗.
+2026-02-10 04:02:18,793 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-10 04:02:18,793 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-10 04:02:18,793 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-10 04:02:18,794 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1000.
+2026-02-10 04:02:18,795 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-10 04:02:18,795 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-10 04:02:18,796 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-10 04:02:18,796 [BotThread] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-10 04:02:18,796 [BotThread] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-10 04:02:18,797 [BotThread] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-10 04:02:18,798 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-10 04:02:18,798 [BotThread] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-10 04:02:18,798 [BotThread] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-10 04:02:18,798 [BotThread] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-10 04:02:18,799 [BotThread] ERROR Logger (null) - [中控设置] 传统对战模式 = 狂野.
+2026-02-10 04:02:18,799 [BotThread] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 任务战.
+2026-02-10 04:02:18,799 [BotThread] ERROR Logger (null) - [中控设置] 对战卡组名称 = 任务战.
+2026-02-10 04:02:18,799 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-10 04:02:18,800 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-10 04:02:18,801 [BotThread] ERROR Logger (null) - [中控设置] 炉石窗口宽度 = 1440.
+2026-02-10 04:02:18,801 [BotThread] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-10 04:02:18,801 [BotThread] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1000.
+2026-02-10 04:02:18,801 [BotThread] ERROR Logger (null) - [中控设置] 炉石窗口高度 = 1000.
+2026-02-10 04:02:18,809 [BotThread] DEBUG Logger (null) - [自动停止插件] 开启
+2026-02-10 04:02:18,810 [BotThread] DEBUG Logger (null) - [监控插件] 开启
+2026-02-10 04:02:18,853 [BotThread] DEBUG Logger (null) - [统计插件] 开启
+2026-02-10 04:02:18,854 [1] INFO  Logger (null) - [监控插件] 合计: 战令235级(1211/1500)(476/小时) 狂野钻石5 1星 415/1017(胜40.81%) [620投] 
+2026-02-10 04:02:18,854 [BotThread] DEBUG Logger (null) - [任务插件] 开启
+2026-02-10 04:02:18,857 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨通用丨不设惩罚.
+2026-02-10 04:02:18,857 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-10 04:02:18,858 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-10 04:02:18,858 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-10 04:02:18,858 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-10 04:02:18,858 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = True.
+2026-02-10 04:02:18,859 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-10 04:02:18,859 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-10 04:02:18,859 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-10 04:02:18,859 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-10 04:02:18,859 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-10 04:02:18,860 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨狂野丨快攻暗牧.
+2026-02-10 04:02:18,860 [BotThread] INFO  Logger (null) - [默认策略设置] AI值 = 3000.
+2026-02-10 04:02:18,860 [BotThread] INFO  Logger (null) - [默认策略设置] 最大考虑步数 = 12.
+2026-02-10 04:02:18,862 [BotThread] INFO  Logger (null) - [默认策略设置] 每步最大保留场面数 = 60.
+2026-02-10 04:02:18,862 [BotThread] INFO  Logger (null) - [默认策略设置] 防奥秘 = False.
+2026-02-10 04:02:18,862 [BotThread] INFO  Logger (null) - [默认策略设置] 不生成对战日志 = False.
+2026-02-10 04:02:18,863 [BotThread] INFO  Logger (null) - [默认策略设置] 打印出牌惩罚 = False.
+2026-02-10 04:02:18,863 [BotThread] INFO  Logger (null) - [默认策略设置] 是否打印自定义惩罚 = False.
+2026-02-10 04:02:18,863 [BotThread] INFO  Logger (null) - [默认策略设置] 下回合斩杀本回合打脸 = False.
+2026-02-10 04:02:18,863 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸阈值 = 27.
+2026-02-10 04:02:18,864 [BotThread] INFO  Logger (null) - [默认策略设置] 打脸奖励 = 0.
+2026-02-10 04:02:18,864 [BotThread] INFO  Logger (null) - [默认策略设置] 天梯对战策略 = 丨狂野丨任务战.
+2026-02-10 04:02:18,864 [BotThread] ERROR Logger (null) - [中控设置] 天梯对战策略 = 丨狂野丨任务战.
+2026-02-10 04:02:19,066 [BotThread] INFO  Logger (null) - [主菜单]
+2026-02-10 04:02:19,078 [BotThread] INFO  Logger (null) - [主菜单] 需要缓存卡组，现在点击"收藏"按钮.
+2026-02-10 04:02:19,150 [BotThread] INFO  Logger (null) - [ClickHubButton] The button is not highlighted.
+2026-02-10 04:02:19,150 [BotThread] ERROR Logger (null) - [主菜单] 无法点击"收藏"按钮.
+2026-02-10 04:02:19,153 [BotThread] DEBUG Logger (null) - [主菜单] 检测到异常情况，将随机点击(X=722,Y=796)处理...
+2026-02-10 04:02:22,693 [BotThread] INFO  Logger (null) - [我的收藏]
+2026-02-10 04:02:22,699 [BotThread] INFO  Logger (null) - [卡组缓存]
+2026-02-10 04:02:22,715 [BotThread] DEBUG Logger (null) - [卡组缓存] 正在处理，请稍等.
+2026-02-10 04:02:24,143 [BotThread] INFO  Logger (null) - [我的收藏]
+2026-02-10 04:02:24,147 [BotThread] INFO  Logger (null) - [卡组缓存]
+2026-02-10 04:02:24,518 [BotThread] INFO  Logger (null) - [卡组缓存] 卡组之前已保存.
+2026-02-10 04:02:24,568 [BotThread] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = False.
+2026-02-10 04:02:24,627 [BotThread] INFO  Logger (null) - [我的收藏]
+2026-02-10 04:02:24,631 [BotThread] INFO  Logger (null) - [卡组缓存]
+2026-02-10 04:02:24,632 [BotThread] DEBUG Logger (null) - [卡组缓存] 正在处理，请稍等.
+2026-02-10 04:02:25,776 [BotThread] INFO  Logger (null) - [我的收藏]
+2026-02-10 04:02:25,780 [BotThread] INFO  Logger (null) - [卡组缓存]
+2026-02-10 04:02:25,784 [BotThread] INFO  Logger (null) - [卡组缓存] 缓存卡组已完成，现在离开"收藏"界面.
+2026-02-10 04:02:27,592 [BotThread] INFO  Logger (null) - [主菜单]
+2026-02-10 04:02:27,596 [BotThread] INFO  Logger (null) - [主菜单] 现在点击"传统对战"按钮.
+2026-02-10 04:02:30,517 [BotThread] INFO  Logger (null) - [卡组选择] 切换到"狂野"模式.
+2026-02-10 04:02:32,255 [BotThread] INFO  Logger (null) - [卡组选择] 准备选择设置的卡组...
+2026-02-10 04:02:32,265 [BotThread] DEBUG Logger (null) - [卡组选择] 在第1页找到卡组"任务战"，现在切换到页面1.
+2026-02-10 04:02:35,472 [BotThread] DEBUG Logger (null) - [卡组选择] 已选中卡组"任务战".
+2026-02-10 04:02:35,520 [BotThread] INFO  Logger (null) - [卡组选择] 现在点击"开始"按钮.
+2026-02-10 04:02:39,772 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:41,855 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:43,939 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:46,056 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:48,155 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:50,305 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:52,405 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:54,505 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:56,605 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:02:58,722 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:00,839 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:02,939 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:05,088 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:07,223 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:09,338 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:11,438 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:13,555 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:15,639 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:17,722 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:19,856 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:21,972 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:24,009 [BotThread] INFO  Logger (null) - [游戏开局前]
+2026-02-10 04:03:24,074 [BotThread] INFO  Logger (null) - [正在匹配] 请稍等...
+2026-02-10 04:03:35,997 [BotThread] INFO  Logger (null) - [自动停止] 游戏开始时间记录: 12:03:35
+2026-02-10 04:03:36,106 [BotThread] DEBUG Logger (null) - [对战准备] 准备工作未完成.
+2026-02-10 04:03:37,133 [BotThread] DEBUG Logger (null) - [对战准备] 准备工作未完成.
+2026-02-10 04:03:38,183 [BotThread] DEBUG Logger (null) - [对战准备] 准备工作未完成.
+2026-02-10 04:03:39,199 [BotThread] DEBUG Logger (null) - [对战准备] 准备工作未完成.
+2026-02-10 04:03:40,249 [BotThread] DEBUG Logger (null) - [对战准备] 准备工作未完成.
+2026-02-10 04:03:40,809 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:41,816 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:42,850 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:43,883 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:44,901 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:45,915 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:47,966 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:49,050 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:03:50,110 [BotThread] INFO  Logger (null) - [日志档案:] 开始创建
+2026-02-10 04:03:50,112 [BotThread] INFO  Logger (null) - [日志档案:] 创建完成
+2026-02-10 04:03:51,633 [BotThread] INFO  Logger (null) - [开局留牌] WARRIOR 对阵 SHAMAN.
+2026-02-10 04:03:51,641 [BotThread] INFO  Logger (null) - [开局留牌] 应用这个 丨狂野丨任务战 规则:
+2026-02-10 04:03:51,642 [BotThread] INFO  Logger (null) - [开局留牌] 走进失落之城 保留这些卡牌因为法力值消耗:1 小于预定值:4.
+2026-02-10 04:03:51,642 [BotThread] INFO  Logger (null) - [开局留牌] 奇利亚斯豪华版3000型 保留这些卡牌因为法力值消耗:0 小于预定值:4.
+2026-02-10 04:03:51,642 [BotThread] INFO  Logger (null) - [开局留牌] 巴罗夫领主 保留这些卡牌因为法力值消耗:3 小于预定值:4.
+2026-02-10 04:03:51,644 [BotThread] INFO  Logger (null) - [开局留牌] 现在开始思考留牌 TLC_602 时间已经过去 770 毫秒.
+2026-02-10 04:03:52,455 [BotThread] INFO  Logger (null) - [开局留牌] 现在开始思考留牌 SCH_526 时间已经过去 0 毫秒.
+2026-02-10 04:03:52,455 [BotThread] INFO  Logger (null) - [开局留牌] 现在开始思考留牌 TOY_330t5 时间已经过去 412 毫秒.
+2026-02-10 04:03:52,981 [BotThread] INFO  Logger (null) - [对战准备] 准备完成.
+2026-02-10 04:03:52,982 [BotThread] INFO  Logger (null) - [游戏开始时]
+2026-02-10 04:03:55,734 [BotThread] DEBUG Logger (null) - [对战准备] 请稍等...
+2026-02-10 04:04:03,926 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:04,934 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:05,950 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:07,873 [BotThread] DEBUG Logger (null) - 使用: 走进失落之城 暂时没有目标
+2026-02-10 04:04:11,181 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-10 04:04:12,068 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:04:14,800 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:15,801 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:16,899 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:17,966 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:20,066 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:21,066 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:22,082 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:23,165 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:24,182 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:25,184 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:26,282 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:28,566 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:31,669 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:04:32,618 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:33,667 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:34,717 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:36,222 [BotThread] DEBUG Logger (null) - 使用英雄技能: 全副武装！ 暂时没有目标    惩罚值: 7
+2026-02-10 04:04:39,967 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-10 04:04:40,850 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:04:42,967 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:44,066 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:45,066 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:46,116 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:04:53,650 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:04:54,650 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:55,667 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:56,684 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:04:58,306 [BotThread] DEBUG Logger (null) - 使用: 盾牌格挡 暂时没有目标
+2026-02-10 04:05:01,564 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-10 04:05:02,383 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:05:04,366 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:05,384 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:06,482 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:07,532 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:15,518 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:05:16,468 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:05:17,484 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:05:18,501 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:05:20,189 [BotThread] DEBUG Logger (null) - 使用: 质量保证 暂时没有目标
+2026-02-10 04:05:23,425 [BotThread] DEBUG Logger (null) - 使用: 倒霉的炸药师 暂时没有目标
+2026-02-10 04:05:25,727 [BotThread] DEBUG Logger (null) - 使用: 倒霉的炸药师 暂时没有目标
+2026-02-10 04:05:29,181 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-10 04:05:29,967 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:05:32,100 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:33,117 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:34,216 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:35,217 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:36,218 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:37,317 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:43,215 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:05:46,734 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:05:47,734 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:05:48,752 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:05:49,784 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:05:51,850 [BotThread] DEBUG Logger (null) - 使用英雄技能: 全副武装！ 暂时没有目标    惩罚值: 7
+2026-02-10 04:05:54,307 [BotThread] DEBUG Logger (null) - 使用: 始祖龟旅行者 暂时没有目标
+2026-02-10 04:06:00,409 [BotThread] DEBUG Logger (null) - 随从攻击: 倒霉的炸药师 目标为: 石爪图腾    惩罚值: -10
+2026-02-10 04:06:03,248 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-10 04:06:04,118 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:06:06,166 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:07,166 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:08,251 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:09,299 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:10,366 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:11,449 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:12,550 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:27,366 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:28,384 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:29,400 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:30,467 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:31,549 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:32,649 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:33,733 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:34,768 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:35,866 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:38,817 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:42,284 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:43,317 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:44,332 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:45,350 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:46,366 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:47,383 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:48,466 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:06:52,684 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:06:53,700 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:06:54,734 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:06:55,768 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:06:57,748 [BotThread] ERROR Logger (null) - [Tick] Exception during execution:
+Buddy.Coroutines.CoroutineUnhandledException: Exception was thrown by coroutine ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at HREngine.Bots.Action.GetActionString()
+   at HREngine.Bots.Action.print(Boolean tobuffer)
+   at HREngine.Bots.Ai.doallmoves(Boolean test, Boolean isLethalCheck)
+   at HREngine.Bots.Ai.dosomethingclever(Behavior bbase)
+   at HREngine.Bots.Silverfish.updateEverything(Behavior botbase, Int32 numcal, Boolean& sleepRetry)
+   at HREngine.Bots.DefaultRoutine.<OurTurnLogic>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at HREngine.Bots.DefaultRoutine.<Logic>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<GameplaySceneMainAction>d__76.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<GamePlayAllProc>d__89.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<SceneGamePlayProc>d__8e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<SceneAllProc>d__99.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Buddy.Coroutines.Coroutine.<>c__DisplayClass32_0.<<smethod_0>b__0>d.MoveNext() in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 208
+   --- End of inner exception stack trace ---
+   at Buddy.Coroutines.Coroutine.method_2(Boolean bool_2) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 336
+   at Buddy.Coroutines.Coroutine.method_0(Boolean bool_2) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 277
+   at Buddy.Coroutines.Coroutine.Resume() in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 259
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.Tick()
+   at Triton.Bot.BotManager.smethod_1(IBot ibot_1) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Triton\Bot\BotManager.cs:line 657
+2026-02-10 04:06:58,274 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-10 04:06:59,150 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:07:01,269 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:02,365 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:03,433 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:04,449 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:05,449 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:06,449 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:07,466 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:08,549 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:09,566 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:10,666 [BotThread] INFO  Logger (null) - [对手回合]
+2026-02-10 04:07:19,666 [BotThread] INFO  Logger (null) - [战斗中] 准备开始/结束回合.
+2026-02-10 04:07:19,985 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:07:21,033 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:07:22,034 [BotThread] DEBUG Logger (null) - [战斗中] 请稍等...
+2026-02-10 04:07:24,165 [BotThread] ERROR Logger (null) - [Tick] Exception during execution:
+Buddy.Coroutines.CoroutineUnhandledException: Exception was thrown by coroutine ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at HREngine.Bots.Action.GetActionString()
+   at HREngine.Bots.Action.print(Boolean tobuffer)
+   at HREngine.Bots.Ai.doallmoves(Boolean test, Boolean isLethalCheck)
+   at HREngine.Bots.Ai.dosomethingclever(Behavior bbase)
+   at HREngine.Bots.Silverfish.updateEverything(Behavior botbase, Int32 numcal, Boolean& sleepRetry)
+   at HREngine.Bots.DefaultRoutine.<OurTurnLogic>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at HREngine.Bots.DefaultRoutine.<Logic>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<GameplaySceneMainAction>d__76.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<GamePlayAllProc>d__89.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<SceneGamePlayProc>d__8e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.<SceneAllProc>d__99.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Buddy.Coroutines.Coroutine.<>c__DisplayClass32_0.<<smethod_0>b__0>d.MoveNext() in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 208
+   --- End of inner exception stack trace ---
+   at Buddy.Coroutines.Coroutine.method_2(Boolean bool_2) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 336
+   at Buddy.Coroutines.Coroutine.method_0(Boolean bool_2) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 277
+   at Buddy.Coroutines.Coroutine.Resume() in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Buddy\Coroutines\Coroutine.cs:line 259
+   at Triton.Bot.Logic.Bots.DefaultBot.DefaultBot.Tick()
+   at Triton.Bot.BotManager.smethod_1(IBot ibot_1) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\Triton\Bot\BotManager.cs:line 657
+2026-02-10 04:07:24,772 [BotThread] DEBUG Logger (null) - 回合结束
+2026-02-10 04:07:25,604 [1] INFO  Logger (null) - [Stop] Now requesting the BotThread to stop.
+2026-02-10 04:07:25,617 [BotThread] DEBUG Logger (null) - [自动停止插件] 停止
+2026-02-10 04:07:25,617 [BotThread] DEBUG Logger (null) - [监控插件] 停止
+2026-02-10 04:07:25,618 [BotThread] DEBUG Logger (null) - [统计插件] 停止
+2026-02-10 04:07:25,618 [BotThread] DEBUG Logger (null) - [任务插件] 停止
+2026-02-10 04:17:25,028 [37] INFO  Logger (null) - [ProcessExited] The game process has closed. Hearthbuddy will now close.

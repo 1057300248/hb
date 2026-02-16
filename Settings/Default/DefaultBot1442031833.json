@@ -1,0 +1,21 @@
+{
+  "NowWinGameCount": 0,
+  "NowLoseGameCount": 0,
+  "ConstructedGameRule": 2,
+  "ConstructedCustomDeck": "2",
+  "LastDeckId": 2671933222,
+  "AutoGreet": false,
+  "ReleaseLimitW": 144,
+  "ReleaseLimitH": 108,
+  "ReleaseLimit": false,
+  "AutoConcedeAfterConstructedWin": false,
+  "AutoConcedeNumberOfWins": 1,
+  "AutoConcedeNumberOfLosses": 1,
+  "NormalConcede": false,
+  "ForceConcedeAtMulligan": false,
+  "JudgmentOpponentNameConcede": false,
+  "AutoConcedeMinDelayMs": 1500,
+  "AutoConcedeMaxDelayMs": 3000,
+  "SliderShopSpeedRatioText": "4.0",
+  "SliderShopSpeedRatio": 4.13846159
+}

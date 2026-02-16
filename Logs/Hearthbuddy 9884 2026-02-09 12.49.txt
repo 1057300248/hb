@@ -1,0 +1,95 @@
+2026-02-09 04:49:57,931 [1] INFO  Logger (null) - Hearthbuddy Version: 0.0.0.0
+Path: C:\Users\<Username>\Desktop\HB1.1.8\<ExeName>
+
+OS Name: Microsoft Windows 10 专业版
+OS Version: 10.0.19045
+OS Architecture: 64 位
+InstalledUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentCulture: zh-CN [Chinese (Simplified, China)]
+
+2026-02-09 04:49:57,949 [1] INFO  Logger (null) - Now setting up JitProfiles...
+2026-02-09 04:49:57,950 [1] INFO  Logger (null) - JitProfiles successfully setup!
+2026-02-09 04:49:57,950 [1] INFO  Logger (null) - Now beginning pre-start tasks.
+2026-02-09 04:49:57,950 [1] INFO  Logger (null) - Now checking prerequisites...
+2026-02-09 04:49:57,954 [1] ERROR Logger (null) - [中控设置] 默认设置操作系统 = Windows10.
+2026-02-09 04:49:58,237 [1] INFO  Logger (null) - Prerequisite check complete!
+2026-02-09 04:49:58,263 [1] INFO  Logger (null) - svchostPath: C:\Windows\System32\svchost.exe
+2026-02-09 04:49:58,275 [1] INFO  Logger (null) - Pre-start tasks successfully completed.
+2026-02-09 04:49:58,280 [1] INFO  Logger (null) - [AuthRegion] China.
+2026-02-09 04:49:58,541 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 5
+2026-02-09 04:49:58,541 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 20
+2026-02-09 04:49:58,574 [1] INFO  Logger (null) - Hearthbuddy [0.0.0.0] is up to date!
+2026-02-09 04:49:58,911 [1] INFO  Logger (null) - 检测到炉石进程！
+2026-02-09 04:49:59,856 [10] INFO  Logger (null) - 绑定到炉石进程！
+2026-02-09 04:49:59,903 [10] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 04:49:59,904 [10] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 请选择卡组.
+2026-02-09 04:49:59,905 [10] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 04:49:59,905 [10] INFO  Logger (null) - [天梯脚本设置] 需要缓存卡组 = True.
+2026-02-09 04:49:59,906 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 144.
+2026-02-09 04:49:59,906 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 108.
+2026-02-09 04:49:59,907 [10] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = True.
+2026-02-09 04:49:59,908 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = False.
+2026-02-09 04:49:59,908 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 04:49:59,909 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 04:49:59,910 [10] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 04:49:59,910 [10] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 04:49:59,911 [10] INFO  Logger (null) - [天梯脚本设置] 立即投降 = False.
+2026-02-09 04:49:59,912 [10] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 04:49:59,912 [10] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 04:49:59,913 [10] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.0.
+2026-02-09 04:49:59,936 [10] INFO  Logger (null) - [天梯脚本设置] 对战模式 = 狂野.
+2026-02-09 04:49:59,936 [10] INFO  Logger (null) - [天梯脚本设置] 卡组名称 = 鸡蛋龙德.
+2026-02-09 04:49:59,937 [10] INFO  Logger (null) - [天梯脚本设置] 自动打招呼 = False.
+2026-02-09 04:49:59,938 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 04:49:59,938 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口宽度 = 1440.
+2026-02-09 04:49:59,939 [10] INFO  Logger (null) - [天梯脚本设置] 炉石窗口高度 = 1080.
+2026-02-09 04:49:59,941 [10] INFO  Logger (null) - [天梯脚本设置] 自动设置炉石窗口宽高 = False.
+2026-02-09 04:49:59,941 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = True.
+2026-02-09 04:49:59,941 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 赢1.
+2026-02-09 04:49:59,942 [10] INFO  Logger (null) - [天梯脚本设置] 保持排名(赢1投1) = 投1.
+2026-02-09 04:49:59,942 [10] INFO  Logger (null) - [天梯脚本设置] 普通互投拿千胜头像 = False.
+2026-02-09 04:49:59,943 [10] INFO  Logger (null) - [天梯脚本设置] 急速投降至互投区 = False.
+2026-02-09 04:49:59,943 [10] INFO  Logger (null) - [天梯脚本设置] 投降最小延时(ms) = 1500.
+2026-02-09 04:49:59,944 [10] INFO  Logger (null) - [天梯脚本设置] 投降最大延时(ms)  = 3000.
+2026-02-09 04:49:59,944 [10] INFO  Logger (null) - [天梯脚本设置] 全局动画速度(齿轮) = 1.1.
+2026-02-09 04:49:59,960 [10] DEBUG Logger (null) - Reloading AssemblyLoader<Triton.Bot.IRoutine> - Initializing
+2026-02-09 04:49:59,960 [1] DEBUG Logger (null) - Current bot set to 天梯脚本.
+2026-02-09 04:50:09,317 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1892-决战荒芜之地\Sim_WW_819.cs(14,29) : warning CS0114: “HREngine.Bots.Sim_WW_819.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”将隐藏继承的成员“HREngine.Bots.SimTemplate.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-09 04:50:09,317 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1935-深暗领域\Sim_GDB_145.cs(14,23) : warning CS0114: “HREngine.Bots.Sim_GDB_145.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”将隐藏继承的成员“HREngine.Bots.SimTemplate.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-09 04:50:09,317 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1935-深暗领域\Sim_GDB_231.cs(14,23) : warning CS0114: “HREngine.Bots.Sim_GDB_231.onHeroattack(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion)”将隐藏继承的成员“HREngine.Bots.SimTemplate.onHeroattack(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-09 04:50:09,318 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1946-翡翠梦境\Sim_EDR_000.cs(16,23) : warning CS0114: “HREngine.Bots.Sim_EDR_000.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”将隐藏继承的成员“HREngine.Bots.SimTemplate.getBattlecryEffect(HREngine.Bots.Playfield, HREngine.Bots.Minion, HREngine.Bots.Minion, int)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-09 04:50:09,318 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1946-翡翠梦境\Sim_EDR_844.cs(14,23) : warning CS0114: “HREngine.Bots.Sim_EDR_844.onAuraStarts(HREngine.Bots.Playfield, HREngine.Bots.Minion)”将隐藏继承的成员“HREngine.Bots.SimTemplate.onAuraStarts(HREngine.Bots.Playfield, HREngine.Bots.Minion)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-09 04:50:09,318 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1946-翡翠梦境\Sim_EDR_844.cs(19,23) : warning CS0114: “HREngine.Bots.Sim_EDR_844.onAuraEnds(HREngine.Bots.Playfield, HREngine.Bots.Minion)”将隐藏继承的成员“HREngine.Bots.SimTemplate.onAuraEnds(HREngine.Bots.Playfield, HREngine.Bots.Minion)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+2026-02-09 04:50:09,319 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\DefaultRoutine.cs(652,27) : warning CS1998: 此异步方法缺少“await”运算符，将以同步方式运行。请考虑使用“await”运算符等待非阻止的 API 调用，或者使用“await Task.Run(...)”在后台线程上执行占用大量 CPU 的工作。
+2026-02-09 04:50:09,319 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\DefaultRoutine.cs(807,27) : warning CS1998: 此异步方法缺少“await”运算符，将以同步方式运行。请考虑使用“await”运算符等待非阻止的 API 调用，或者使用“await Task.Run(...)”在后台线程上执行占用大量 CPU 的工作。
+2026-02-09 04:50:09,319 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\DefaultRoutine.cs(849,27) : warning CS1998: 此异步方法缺少“await”运算符，将以同步方式运行。请考虑使用“await”运算符等待非阻止的 API 调用，或者使用“await Task.Run(...)”在后台线程上执行占用大量 CPU 的工作。
+2026-02-09 04:50:09,319 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\DefaultRoutine.cs(2047,27) : warning CS1998: 此异步方法缺少“await”运算符，将以同步方式运行。请考虑使用“await”运算符等待非阻止的 API 调用，或者使用“await Task.Run(...)”在后台线程上执行占用大量 CPU 的工作。
+2026-02-09 04:50:09,320 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\DefaultRoutine.cs(2063,27) : warning CS1998: 此异步方法缺少“await”运算符，将以同步方式运行。请考虑使用“await”运算符等待非阻止的 API 调用，或者使用“await Task.Run(...)”在后台线程上执行占用大量 CPU 的工作。
+2026-02-09 04:50:09,320 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\ai\Behavior.cs(624,29) : warning CS0219: 变量“x”已赋值，但其值从未使用过
+2026-02-09 04:50:09,320 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\ai\Minion.cs(1024,13) : warning CS0162: 检测到无法访问的代码
+2026-02-09 04:50:09,321 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\ai\Playfield.cs(2236,34) : warning CS0219: 变量“dontkill”已赋值，但其值从未使用过
+2026-02-09 04:50:09,321 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\ai\Playfield.cs(5073,13) : warning CS1522: 空的 switch 块
+2026-02-09 04:50:09,321 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\ai\Playfield.cs(12917,18) : warning CS0219: 变量“flag”已赋值，但其值从未使用过
+2026-02-09 04:50:09,321 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\behavior\丨狂野丨十职业通用挂机\Behavior丨狂野丨十职业通用挂机.cs(781,18) : warning CS0219: 变量“useAb”已赋值，但其值从未使用过
+2026-02-09 04:50:09,322 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\behavior\丨狂野丨快攻暗牧\Behavior丨狂野丨快攻暗牧.cs(599,18) : warning CS0219: 变量“虚触侍从”已赋值，但其值从未使用过
+2026-02-09 04:50:09,322 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\behavior\丨自定义丨空策略\Behavior丨自定义丨空策略.cs(77,18) : warning CS0219: 变量“useAb”已赋值，但其值从未使用过
+2026-02-09 04:50:09,322 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\behavior\丨通用丨不设惩罚\Behavior丨通用丨不设惩罚.cs(681,18) : warning CS0219: 变量“useAb”已赋值，但其值从未使用过
+2026-02-09 04:50:09,322 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_112.cs(22,47) : error CS1061: “System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”不包含“FirstOrDefault”的定义，并且找不到可接受类型为“System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”的第一个参数的扩展方法“FirstOrDefault”(是否缺少 using 指令或程序集引用?)
+2026-02-09 04:50:09,323 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_112.cs(23,51) : error CS1061: “System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”不包含“FirstOrDefault”的定义，并且找不到可接受类型为“System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”的第一个参数的扩展方法“FirstOrDefault”(是否缺少 using 指令或程序集引用?)
+2026-02-09 04:50:09,323 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_128.cs(20,47) : error CS1061: “System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”不包含“FirstOrDefault”的定义，并且找不到可接受类型为“System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”的第一个参数的扩展方法“FirstOrDefault”(是否缺少 using 指令或程序集引用?)
+2026-02-09 04:50:09,323 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0015-冠军的试炼\Sim_AT_128.cs(21,51) : error CS1061: “System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”不包含“FirstOrDefault”的定义，并且找不到可接受类型为“System.Collections.Generic.List<HREngine.Bots.CardDB.Card>”的第一个参数的扩展方法“FirstOrDefault”(是否缺少 using 指令或程序集引用?)
+2026-02-09 04:50:09,324 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0020-探险者协会\Sim_LOE_020.cs(22,23) : error CS0103: 当前上下文中不存在名称“oneCostMinion”
+2026-02-09 04:50:09,324 [10] ERROR Logger (null) - Compiler Error: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\0020-探险者协会\Sim_LOE_020.cs(23,23) : error CS0103: 当前上下文中不存在名称“oneCostMinion”
+2026-02-09 04:50:09,324 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1637-核心\Sim_Core_UNG_211.cs(18,31) : warning CS0219: 变量“selectedCardID”已赋值，但其值从未使用过
+2026-02-09 04:50:09,324 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1905-胜地历险记\Sim_VAC_907.cs(18,31) : warning CS0219: 变量“selectedCardID”已赋值，但其值从未使用过
+2026-02-09 04:50:09,325 [10] WARN  Logger (null) - Compiler Warnings: c:\Users\Administrator\Desktop\HB1.1.8\Routines\DefaultRoutine\Silverfish\cards\1905-胜地历险记\Sim_WORK_027.cs(18,31) : warning CS0219: 变量“selectedCardID”已赋值，但其值从未使用过
+2026-02-09 04:50:09,653 [10] DEBUG Logger (null) - [自动停止插件] 初始化
+2026-02-09 04:50:09,663 [10] DEBUG Logger (null) - [监控插件] 初始化
+2026-02-09 04:50:09,675 [10] DEBUG Logger (null) - [统计插件] 初始化
+2026-02-09 04:50:09,685 [10] DEBUG Logger (null) - [任务插件] 初始化
+2026-02-09 04:50:09,695 [10] DEBUG Logger (null) - [自动停止插件] 启用
+2026-02-09 04:50:09,745 [10] DEBUG Logger (null) - [监控插件] 启用
+2026-02-09 04:50:09,779 [10] DEBUG Logger (null) - [统计插件] 启用
+2026-02-09 04:50:09,813 [10] DEBUG Logger (null) - [任务插件] 启用
+2026-02-09 04:50:09,905 [10] ERROR Logger (null) - 炉石学习V1.1.8内核开源版本--[2026-2-2]--禁止以收费形式单独分发本软件或二次打包开源内容进行售卖

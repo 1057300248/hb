@@ -1,0 +1,29 @@
+2026-02-10 03:57:49,085 [1] INFO  Logger (null) - Hearthbuddy Version: 0.0.0.0
+Path: C:\Users\<Username>\Desktop\HB1.1.8\<ExeName>
+
+OS Name: Microsoft Windows 10 专业版
+OS Version: 10.0.19045
+OS Architecture: 64 位
+InstalledUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentUICulture: zh-CN [Chinese (Simplified, China)]
+CurrentCulture: zh-CN [Chinese (Simplified, China)]
+
+2026-02-10 03:57:49,104 [1] INFO  Logger (null) - Now setting up JitProfiles...
+2026-02-10 03:57:49,105 [1] INFO  Logger (null) - JitProfiles successfully setup!
+2026-02-10 03:57:49,105 [1] INFO  Logger (null) - Now beginning pre-start tasks.
+2026-02-10 03:57:49,105 [1] INFO  Logger (null) - Now checking prerequisites...
+2026-02-10 03:57:49,109 [1] ERROR Logger (null) - [中控设置] 默认设置操作系统 = Windows10.
+2026-02-10 03:57:49,369 [1] INFO  Logger (null) - Prerequisite check complete!
+2026-02-10 03:57:49,396 [1] ERROR Logger (null) - Could not rename ourself on startup: System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ns3.Class7.ChangeNameRandom(String imageFilePath) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\ns3\Class7.cs:line 190
+   at ns3.Class7.DelFile(String imageFilePath, String appName) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\ns3\Class7.cs:line 162
+   at ns3.Class7.FitSeveralProcess(String appName) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\ns3\Class7.cs:line 143
+   at Hearthbuddy.App.OnStartup(StartupEventArgs e) in C:\Users\Administrator\Desktop\资料\琴hb源码\Hearthbuddy_Origin-master\Hearthbuddy_Origin-master\App\App.cs:line 411
+2026-02-10 03:57:49,471 [1] INFO  Logger (null) - [AuthRegion] China.
+2026-02-10 03:57:49,775 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 5
+2026-02-10 03:57:49,776 [1] INFO  Logger (null) - [BotManager] MsBetweenTicks = 20
+2026-02-10 03:57:49,821 [1] INFO  Logger (null) - Hearthbuddy [0.0.0.0] is up to date!

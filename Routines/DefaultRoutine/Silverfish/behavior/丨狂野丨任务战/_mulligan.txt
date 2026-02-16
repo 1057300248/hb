@@ -1,0 +1,13 @@
+//倒霉的炸药师
+WW_367;warrior;None;Hold:2;/
+//雷纳索尔王子
+REV_018;warrior;None;Discard:2;/
+//奇利亚斯豪华版3000型
+TOY_330;warrior;None;Discard:2;/
+//洛瑟玛塞隆
+RLK_593;warrior;None;Hold:2;/
+//黑石摇滚
+ETC_417;warrior;None;Hold:2;/
+//活体烈焰
+FIR_929;warrior;None;Hold:2;/
+
