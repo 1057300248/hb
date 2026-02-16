@@ -306,17 +306,16 @@ namespace Monitor
                 }
             }
 
-            if (oldStats.Level < 400)
+            if (oldStats != null && oldStats.Level < 400)
+            {
                 MonitorSettings.Instance.AllRunTime += (long)stopwatch_0.Elapsed.TotalSeconds;
+            }
 
             var stats = GetStats();
             if (stats != null)
             {
-                int total = 0;
-                if (oldStats.Level > 130)
-                    total = allNeedXp[129] + (oldStats.Level - 130) * 1500 + oldStats.Xp;
-                else total = allNeedXp[oldStats.Level - 1] + oldStats.Xp;
-                MonitorSettings.Instance.AllGetXp += (MonitorSettings.Instance.AllXp - total);
+                var previousTotalXp = oldStats == null ? 0 : CalculateTotalXp(oldStats.Level, oldStats.Xp);
+                MonitorSettings.Instance.AllGetXp += (MonitorSettings.Instance.AllXp - previousTotalXp);
                 oldStats = stats;
             }
 
@@ -352,7 +351,6 @@ namespace Monitor
         {
             Application.Current.Dispatcher.BeginInvoke(new Action(() =>
             {
-                var leftControl = Wpf.FindControlByName<Label>(Application.Current.MainWindow, "StatusBarLeftLabel");
                 var rightControl = Wpf.FindControlByName<Label>(Application.Current.MainWindow, "StatusBarRightLabel");
 
                 if (rightControl != null)
@@ -473,6 +471,22 @@ namespace Monitor
             return result;
         }
 
+
+        private int CalculateTotalXp(int level, int xp)
+        {
+            if (level <= 0)
+            {
+                return Math.Max(0, xp);
+            }
+
+            if (level > 130)
+            {
+                return allNeedXp[129] + (level - 130) * 1500 + xp;
+            }
+
+            return allNeedXp[level - 1] + xp;
+        }
+
         private Stats GetStats()
         {
             try
@@ -517,15 +531,12 @@ namespace Monitor
                     XpNeeded = MonitorSettings.Instance.XpNeeded,
                 };
 
-                int total=0;
-                if (stats.Level > 130)
-                    total = allNeedXp[129] + (stats.Level - 130) * 1500 + stats.Xp;
-                else total = allNeedXp[stats.Level - 1] + stats.Xp;
-                MonitorSettings.Instance.AllXp = total;
+                MonitorSettings.Instance.AllXp = CalculateTotalXp(stats.Level, stats.Xp);
                 MonitorSettings.Instance.FullXpNeeded =
-                    MonitorSettings.Instance.AllXpNeeded - MonitorSettings.Instance.AllXp;
+                    Math.Max(0, MonitorSettings.Instance.AllXpNeeded - MonitorSettings.Instance.AllXp);
 
-                int hour = MonitorSettings.Instance.FullXpNeeded / MonitorSettings.Instance.PerHourXp;
+                int perHourXp = Math.Max(1, MonitorSettings.Instance.PerHourXp);
+                int hour = MonitorSettings.Instance.FullXpNeeded / perHourXp;
                 MonitorSettings.Instance.FullTimeNeeded = hour == 0 ? "恭喜满级":
                     ((hour / 24).ToString() + "天" + (hour % 24).ToString() + "小时");
 
