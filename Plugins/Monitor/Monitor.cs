@@ -351,7 +351,6 @@ namespace Monitor
         {
             Application.Current.Dispatcher.BeginInvoke(new Action(() =>
             {
-                var leftControl = Wpf.FindControlByName<Label>(Application.Current.MainWindow, "StatusBarLeftLabel");
                 var rightControl = Wpf.FindControlByName<Label>(Application.Current.MainWindow, "StatusBarRightLabel");
 
                 if (rightControl != null)

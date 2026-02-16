@@ -29,7 +29,6 @@ using Triton.Game.Mapping;
 using Triton.Bot.Logic.Bots.DefaultBot;
 using Logger = Triton.Common.LogUtilities.Logger;
 using System.Diagnostics;
-using System.Threading;
 
 namespace HREngine.Bots
 {
@@ -68,7 +67,7 @@ namespace HREngine.Bots
         {
             // _mulliganRules.Add(new Tuple<string, string>("True", "card.Entity.Cost >= 4 and card.Entity.Id != \"GVG_063\""));
             Helpfunctions.Instance.ErrorLog("----------------------------");
-            Helpfunctions.Instance.ErrorLog("您正在使用的AI版本为" + Silverfish.Instance.versionnumber);
+            Helpfunctions.Instance.ErrorLog("您正在使用的AI版本为" + sf.versionnumber);
             Helpfunctions.Instance.ErrorLog("----------------------------");
         }
 
@@ -1038,17 +1037,21 @@ def Execute():
            // Log.DebugFormat("[实体读取] 开始调用updateEverything方法...");
             var updateStopwatch = System.Diagnostics.Stopwatch.StartNew();
             bool sleepRetry = false;
-            bool templearn = Silverfish.Instance.updateEverything(behave, 0, out sleepRetry);
+            bool templearn = sf.updateEverything(behave, 0, out sleepRetry);
             var updateTime = updateStopwatch.ElapsedMilliseconds;
+            if (updateTime > 800)
+            {
+                Log.WarnFormat("[AI] updateEverything耗时较高: {0}ms", updateTime);
+            }
         //    Log.DebugFormat("[实体读取] 第一次updateEverything完成，templearn={0}, sleepRetry={1}, 耗时={2}ms", templearn, sleepRetry, updateTime);
 
             if (sleepRetry)
             {
                 Log.Error("[AI] 随从没能动起来，再试一次...");
                 await Coroutine.Sleep(500);
-                Thread.Sleep(2000);
+                await Coroutine.Sleep(2000);
             //   Log.DebugFormat("[实体读取] 开始第二次调用updateEverything...");
-                templearn = Silverfish.Instance.updateEverything(behave, 1, out sleepRetry);
+                templearn = sf.updateEverything(behave, 1, out sleepRetry);
             //    Log.DebugFormat("[实体读取] 第二次updateEverything完成，templearn={0}, sleepRetry={1}", templearn, sleepRetry);
             }
 
@@ -1172,7 +1175,7 @@ def Execute():
                 playEmote(EmoteType.OOPS);
                 Log.DebugFormat("实在支不出招啦. 结束当前回合");
                 await Coroutine.Sleep(500);
-                Thread.Sleep(2000);
+                await Coroutine.Sleep(2000);
                 //地标减少冷却回合
                 Playfield nullPlay = Ai.Instance.bestplay;
                 foreach (Minion m in nullPlay.ownMinions)
